@@ -1,0 +1,4528 @@
+{
+    "1": {
+        "Bio Medical Engineering (Ss)": 70,
+        "Civil Engineering": 70,
+        "Computer Science And Engineering": 70,
+        "Computer Science And Engineering (Ss)": 140,
+        "Electronics And Communication Engineering": 70,
+        "Electronics And Communication Engineering (Ss)": 70,
+        "Electrical And Electronics Engineering": 70,
+        "Geo Informatics": 70,
+        "Industrial Engineering": 70,
+        "Information Technology (Ss)": 140,
+        "Material Science And Engineering (Ss)": 35,
+        "Mining Engineering": 35,
+        "Manufacturing Engineering": 70,
+        "Mechanical Engineering": 140,
+        "Mechanical Engineering (Tamil Medium)": 35,
+        "Civil Engineering (Tamil Medium)": 35,
+        "Printing And Packing Technology": 70,
+        "Electronics Engineering(Vlsi Design And Technology)(Ss)": 70
+    },
+    "2": {
+        "Apparel Technology (Ss)": 35,
+        "Chemical Engineering": 70,
+        "Chemical Engineering (Ss)": 70,
+        "Ceramic Technology (Ss)": 60,
+        "Food Technology (Ss)": 45,
+        "Industrial Bio Technology": 40,
+        "Industrial Bio Technology (Ss)": 30,
+        "Leather Technology": 60,
+        "Petroleum Engineering And Technology (Ss)": 60,
+        "Textile Technology": 60,
+        "Pharmaceutical Technology (Ss)": 60
+    },
+    "3": {
+        "B.Plan": 40,
+        "Architecture": 40,
+        "Architecture(Ss)": 40
+    },
+    "4": {
+        "Artificial Intelligence And Data Science (Ss)": 70,
+        "Aeronautical Engineering": 70,
+        "Automobile Engineering": 70,
+        "Computer Science And Engineering": 70,
+        "Computer Science And Engineering (Ss)": 70,
+        "Electronics And Communication Engineering": 70,
+        "Electronics And Communication Engineering (Ss)": 70,
+        "Electronics And Instrumentation Engineering": 70,
+        "Information Technology (Ss)": 140,
+        "Production Engineering": 70,
+        "Robotics And Automation (Ss)": 35,
+        "Rubber And Plastic Technology": 70
+    },
+    "5": {
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Computer Science And Engineering": 120,
+        "Civil Engineering": 60,
+        "Civil And Structutural Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 120,
+        "Electronics And Instrumentation Engineering": 60,
+        "Mechanical Engineering": 120,
+        "Mechanical Engineering (Manufacturing)": 60,
+        "Chemical Engineering": 120,
+        "Information Technology": 120,
+        "Computer Science And Engineering (Data Science)": 60
+    },
+    "1013": {
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Information Technology": 60,
+        "Mechanical Engineering": 60,
+        "Mechanical Engineering (Tamil Medium)": 30,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60
+    },
+    "1014": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Information Technology": 60,
+        "Civil Engineering (Tamil Medium)": 30,
+        "Electrical And Computer Enginnering": 30,
+        "Computer Science And Engineering (Artificial Intelligence)": 30
+    },
+    "1015": {
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Mechanical Engineering (Tamil Medium)": 30,
+        "Computer Science And Engineering": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60
+    },
+    "1026": {
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "1101": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 120,
+        "Information Technology": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 120,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Computer Science And Bussiness System": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30
+    },
+    "1106": {
+        "Aeronautical Engineering": 30,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 90,
+        "Electronics And Instrumentation Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Information Technology": 120,
+        "Textile Technology": 40,
+        "Computer Science And Bussiness System": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Computer And Communication Engineering": 30,
+        "Robotics And Automation": 30
+    },
+    "1107": {
+        "Computer Science And Engineering": 30,
+        "Electronics And Communication Engineering": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Food Technology": 30
+    },
+    "1110": {
+        "Artificial Intelligence And Data Science": 150,
+        "Bio Technology": 60,
+        "Computer Science And Engineering": 180,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 90,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Mechanical Engineering": 30,
+        "Computer Science And Bussiness System": 60
+    },
+    "1112": {
+        "Computer Science And Engineering": 300,
+        "Electronics And Communication Engineering": 240,
+        "Information Technology": 120,
+        "Computer Science And Engineering And Business Systems": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 180,
+        "Electrical And Electronics Engineering": 60
+    },
+    "1113": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 300,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 300,
+        "Mechanical Engineering": 60,
+        "Information Technology": 120,
+        "Computer Science And Engineering (Ar/Vr And Media Design)": 60,
+        "Computer Science And Engineering (Artificial Intelligence)": 180,
+        "Computer Science And Engineering And Business Systems": 60,
+        "Electronics And Communication Engineering (Vlsi Design And": 60,
+        "Electronics And Communication Engineering (Advanced\nCommunication Technology)": 60
+    },
+    "1114": {
+        "Artificial Intelligence And Data Science": 120,
+        "Electrical And Electronics Engineering": 120,
+        "Mechanical Engineering": 60,
+        "Computer Science And Bussiness System": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Computer Science And Engineering": 300,
+        "Electronics And Communication Engineering": 180,
+        "Information Technology": 120,
+        "Electronics Engineering (Vlsi Design And Technology)": 60
+    },
+    "1115": {
+        "Electrical And Electronics Engineering": 30,
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Computer Science And Bussiness System": 30,
+        "Computer Science And Engineering (Cyber Security)": 30
+    },
+    "1116": {
+        "Civil Engineering": 30,
+        "Mechanical Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Artificial Intelligence And Data Science": 60,
+        "Information Technology": 30,
+        "Computer Science And Engineering (Cyber Security)": 30
+    },
+    "1118": {
+        "Bio Medical Engineering": 60,
+        "Computer Science And Engineering": 240,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 120,
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Bussiness System": 60,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "1120": {
+        "Artificial Intelligence And Data Science": 180,
+        "Automobile Engineering": 30,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 240,
+        "Electronics And Communication Engineering": 240,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Instrumentation Engineering": 30,
+        "Information Technology": 120,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering (Cyber Security)": 120
+    },
+    "1121": {
+        "Artificial Intelligence And Data Science": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 60
+    },
+    "1122": {
+        "Artificial Intelligence And Data Science": 180,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 120,
+        "Bio Technology": 60,
+        "Chemical Engineering": 60,
+        "Computer Science And Engineering": 180,
+        "Civil Engineering": 30,
+        "Mechanical Engineering": 60,
+        "Information Technology": 120,
+        "Electronics And Communication Engineering": 120
+    },
+    "1123": {
+        "Aeronautical Engineering": 30,
+        "Artificial Intelligence And Data Science": 30,
+        "Computer Science And Engineering": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Computer Science And Engineering (Cyber Security)": 30,
+        "Computer And Communication Engineering": 30,
+        "Computer Science And Bussiness System": 30,
+        "Electronics And Communication Engineering": 30,
+        "Information Technology": 30,
+        "Mechanical And Automation Engineering": 30,
+        "Medical Electronics Engineering": 30,
+        "Pharmaceutical Technology": 30,
+        "Bio Technology": 30,
+        "Robotics And Automation": 30
+    },
+    "1124": {
+        "Aeronautical Engineering": 30,
+        "Computer Science And Engineering": 30,
+        "Artificial Intelligence And Data Science": 30,
+        "Computer And Communication Engineering": 30,
+        "Computer Science And Engineering (Cyber Security)": 30,
+        "Marine Engineering": 40,
+        "Mechanical Engineering": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30
+    },
+    "1125": {
+        "Aeronautical Engineering": 30,
+        "Civil Engineering (Ss)": 30,
+        "Computer Science And Engineering (Ss)": 30,
+        "Electronics And Communication Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Electrical And Electronics Engineering (Ss)": 30,
+        "Artificial Intelligence And Data Science": 30,
+        "Cyber Security": 30
+    },
+    "1126": {
+        "Computer Science And Engineering": 300,
+        "Electronics And Communication Engineering": 240,
+        "Computer Science And Engineering (Cyber Security)": 120,
+        "Electronics Engineering (Vlsi Design And Technology)": 60,
+        "Robotics And Automation": 60,
+        "Bio Medical Engineering": 30,
+        "Artificial Intelligence And Data Science": 300,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60
+    },
+    "1127": {
+        "Artificial Intelligence And Data Science": 120,
+        "Bio Technology": 60,
+        "Computer Science And Engineering": 120,
+        "Chemical Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 120,
+        "Mechanical Engineering": 60,
+        "Architecture": 20,
+        "Computer Science And Bussiness System": 60
+    },
+    "1128": {
+        "Computer Science And Engineering": 300,
+        "Electronics And Communication Engineering": 180,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Electronics And Communication Engineering (Vlsi Design And": 60
+    },
+    "1129": {
+        "Architecture": 30
+    },
+    "1130": {
+        "Architecture": 60
+    },
+    "1132": {
+        "Architecture": 60
+    },
+    "1133": {
+        "Artificial Intelligence And Data Science": 60,
+        "Civil Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Computer Science And Engineering And Business Systems": 30
+    },
+    "1135": {
+        "Architecture": 40
+    },
+    "1137": {
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Information Technology": 60,
+        "Civil Engineering": 30,
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Engineering": 120,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60
+    },
+    "1138": {},
+    "1140": {
+        "Electronics And Communication Engineering": 120,
+        "Mechanical Engineering": 30,
+        "Computer Science And Bussiness System": 30,
+        "Information Technology": 240,
+        "Computer Science And Engineering": 360,
+        "Artificial Intelligence And Data Science": 240
+    },
+    "1144": {
+        "Architecture": 40
+    },
+    "1146": {
+        "Architecture": 40
+    },
+    "1147": {},
+    "1149": {},
+    "1150": {
+        "Agricultural Engineering": 60,
+        "Bio Medical Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 60
+    },
+    "1152": {
+        "Architecture": 40
+    },
+    "1202": {
+        "Civil Engineering": 30,
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Engineering": 180,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 30,
+        "Information Technology": 90,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60
+    },
+    "1207": {
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Bio Medical Engineering": 60,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 120,
+        "Information Technology": 120,
+        "Mechanical Engineering": 60,
+        "Robotics And Automation": 30,
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "1209": {
+        "Civil Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 120,
+        "Computer Science And Engineering": 120,
+        "Information Technology": 30,
+        "Mechanical Engineering": 120
+    },
+    "1210": {
+        "Computer Science And Engineering": 960,
+        "Information Technology": 540,
+        "Electronics And Communication Engineering": 480,
+        "Electrical And Electronics Engineering": 180,
+        "Mechanical Engineering": 90,
+        "Artificial Intelligence And Data Science": 720,
+        "Artificial Intelligence And Machine Learning": 240
+    },
+    "1211": {
+        "Artificial Intelligence And Data Science": 420,
+        "Aeronautical Engineering": 60,
+        "Artificial Intelligence And Machine Learning": 240,
+        "Automobile Engineering": 60,
+        "Bio Medical Engineering": 120,
+        "Bio Technology": 180,
+        "Computer Science And Bussiness System": 120,
+        "Computer Science And Design": 60,
+        "Civil Engineering": 60,
+        "Chemical Engineering": 60,
+        "Computer Science And Engineering": 1020,
+        "Electronics And Communication Engineering": 780,
+        "Electrical And Electronics Engineering": 120,
+        "Information Technology": 300,
+        "Food Technology": 60,
+        "Mechanical Engineering": 120,
+        "Mechatronics Engineering": 120,
+        "Robotics And Automation": 60,
+        "Computer Science And Engineering (Cyber Security)": 180
+    },
+    "1212": {
+        "Bio Medical Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 30,
+        "Petroleum Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Artificial Intelligence And Data Science": 60,
+        "Information Technology": 60
+    },
+    "1213": {
+        "Bio Medical Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Information Technology": 60
+    },
+    "1216": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 600,
+        "Electronics And Communication Engineering": 360,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 120,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 180,
+        "Artificial Intelligence And Machine Learning": 180,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "1217": {
+        "Automobile Engineering": 30,
+        "Artificial Intelligence And Data Science": 60,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Food Technology": 60,
+        "Bio Medical Engineering": 30,
+        "Mechanical And Automation Engineering": 30,
+        "Bio Technology": 60,
+        "Information Technology": 60,
+        "Computer Science And Engineering (Cyber Security)": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Computer Science And Bussiness System": 30
+    },
+    "1218": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 90,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Information Technology": 90,
+        "Artificial Intelligence And Data Science": 120,
+        "Bio Medical Engineering": 30,
+        "Robotics And Automation": 30,
+        "Pharmaceutical Technology": 30,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "1219": {
+        "Artificial Intelligence And Data Science": 120,
+        "Bio Technology": 120,
+        "Civil Engineering": 60,
+        "Chemical Engineering": 120,
+        "Computer Science And Engineering": 360,
+        "Electrical And Electronics Engineering": 180,
+        "Electronics And Communication Engineering": 240,
+        "Information Technology": 120,
+        "Mechanical Engineering": 120,
+        "Mechanical And Automation Engineering": 60,
+        "Mechanical Engineering(Automobile)": 30
+    },
+    "1221": {
+        "Computer Science And Engineering": 30,
+        "Electronics And Communication Engineering": 30,
+        "Mechanical Engineering": 60,
+        "Medical Electronics Engineering": 60
+    },
+    "1222": {
+        "Aeronautical Engineering": 30,
+        "Computer Science And Engineering": 120,
+        "Civil Engineering": 15,
+        "Computer Science And Engineering (Cyber Security)": 30,
+        "Information Technology": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30
+    },
+    "1225": {
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering": 120,
+        "Information Technology": 120,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 90
+    },
+    "1226": {
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Information Technology": 60
+    },
+    "1228": {
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Robotics And Automation": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 30,
+        "Information Technology": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Bio Medical Engineering": 30
+    },
+    "1229": {
+        "Computer Science And Engineering": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Civil Engineering": 30
+    },
+    "1230": {
+        "Aeronautical Engineering": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Bussiness System": 60,
+        "Computer Science And Engineering": 60,
+        "Computer Science And Engineering (Cyber Security)": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 60
+    },
+    "1232": {
+        "Artificial Intelligence And Data Science": 60,
+        "Information Technology": 60,
+        "Computer Science And Engineering": 60,
+        "Civil Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60
+    },
+    "1233": {
+        "Artificial Intelligence And Data Science": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 60,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering": 120,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Computer Science And Engineering (Cyber Security)": 30
+    },
+    "1235": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 30,
+        "Information Technology": 15,
+        "Mechanical Engineering": 30
+    },
+    "1237": {
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Engineering": 240,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 30,
+        "Information Technology": 90,
+        "Mechanical Engineering": 30,
+        "Mechatronics Engineering": 30
+    },
+    "1238": {
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Engineering": 120,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Bio Medical Engineering": 30,
+        "Information Technology": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60
+    },
+    "1241": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 90,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Information Technology": 60,
+        "Mechanical Engineering": 30
+    },
+    "1243": {
+        "Artificial Intelligence And Data Science": 60,
+        "Electronics And Communication Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Information Technology": 60,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "1301": {
+        "Electronics Engineering(Vlsi Design And Technology)(Ss)": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Electronics And Communication (Advanced Communication\nTechnology)": 30,
+        "Computer Science And Bussiness System": 30,
+        "Civil Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Information Technology": 60,
+        "Mechanical Engineering": 30,
+        "Computer Science And Engineering (Cyber Security)": 30,
+        "Computer Science And Engineering": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Bachelor Of Design": 30
+    },
+    "1303": {
+        "Computer Science And Engineering": 120,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 60,
+        "Artificial Intelligence And Data Science": 120,
+        "Bio Technology": 60,
+        "Computer Science And Bussiness System": 60,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "1304": {
+        "Computer Science And Bussiness System": 60,
+        "Computer Science And Design": 60,
+        "Bio Technology": 60,
+        "Bio Medical Engineering": 60,
+        "Civil Engineering": 60,
+        "Robotics And Automation": 60,
+        "Mechanical Engineering": 120,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Information Technology": 300,
+        "Automobile Engineering": 30,
+        "Artificial Intelligence And Data Science": 240,
+        "Computer Science And Engineering": 420,
+        "Electronics And Communication Engineering": 240,
+        "Electrical And Electronics Engineering": 120,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 120
+    },
+    "1306": {
+        "Artificial Intelligence And Data Science": 120,
+        "Bio Technology": 30,
+        "Computer Science And Engineering": 180,
+        "Electronics And Communication Engineering": 120,
+        "Information Technology": 120,
+        "Mechanical Engineering": 60,
+        "Aerospace Engineering": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning) (Ss)": 120,
+        "Electrical And Electronics Engineering": 60
+    },
+    "1307": {
+        "Artificial Intelligence And Data Science": 60,
+        "Electronics And Communication Engineering": 120,
+        "Computer Science And Bussiness System": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Bio Medical Engineering": 60,
+        "Information Technology": 90,
+        "Computer Science And Engineering": 120,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60
+    },
+    "1308": {
+        "Architecture": 160
+    },
+    "1309": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 180,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 180,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 120,
+        "Artificial Intelligence And Machine Learning": 60,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "1310": {
+        "Artificial Intelligence And Data Science": 60,
+        "Civil Engineering": 30,
+        "Computer Science And Bussiness System": 30,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Information Technology": 60
+    },
+    "1311": {
+        "Artificial Intelligence And Data Science": 90,
+        "Aeronautical Engineering": 60,
+        "Aerospace Engineering": 60,
+        "Automobile Engineering": 30,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 240,
+        "Fashion Technology": 30,
+        "Information Technology": 120,
+        "Mechanical Engineering": 60,
+        "Mechatronics Engineering": 60,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 120,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Bio Medical Engineering": 60
+    },
+    "1315": {
+        "Bio Medical Engineering": 60,
+        "Chemical Engineering": 60,
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 180,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 120,
+        "Information Technology": 120,
+        "Mechanical Engineering": 120,
+        "M.Tech. Computer Science And Engineering (Integrated 5\nYears)": 60
+    },
+    "1316": {
+        "Artificial Intelligence And Data Science": 120,
+        "Bio Medical Engineering": 60,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 180,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Chemical Engineering": 30,
+        "Information Technology": 120,
+        "Mechatronics Engineering": 60
+    },
+    "1317": {
+        "Artificial Intelligence And Machine Learning": 120,
+        "Bio Technology": 60,
+        "Electronics And Communication Engineering": 360,
+        "Information Technology": 480,
+        "Mechatronics Engineering": 30,
+        "Computer Science And Engineering (Cyber Security)": 120,
+        "Artificial Intelligence And Data Science": 420,
+        "Computer Science And Engineering": 540,
+        "Computer Science And Bussiness System": 60,
+        "Mechanical Engineering": 90,
+        "Chemical Engineering": 30,
+        "Electrical And Electronics Engineering": 120,
+        "M.Tech. Computer Science And Engineering (Integrated 5\nYears)": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60
+    },
+    "1318": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 60,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "1319": {
+        "Computer Science And Engineering": 120,
+        "Civil Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 120,
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60
+    },
+    "1321": {
+        "Manufacturing Engineering": 60,
+        "Plastic Technology": 60
+    },
+    "1322": {
+        "Artificial Intelligence And Data Science": 300,
+        "Aeronautical Engineering": 60,
+        "Agricultural Engineering": 30,
+        "Bio Medical Engineering": 60,
+        "Computer Science And Engineering": 240,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 30,
+        "Civil Engineering": 30,
+        "Information Technology": 180,
+        "Food Technology": 30,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Electrical And Computer Enginnering": 30,
+        "Robotics And Artificial Intelligence": 30,
+        "Computer Science And Engineering (Internet Of Things)": 60,
+        "Environmental Science And Technology": 30,
+        "Mechatronics Engineering": 60
+    },
+    "1324": {
+        "Artificial Intelligence And Data Science": 120,
+        "Computer And Communication Engineering": 60,
+        "Computer Science And Engineering": 240,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 180,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Computer Science And Engineering (Internet Of Things)": 60
+    },
+    "1325": {
+        "Computer Science And Engineering": 180,
+        "Information Technology": 90,
+        "Electronics And Communication Engineering": 90,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "1333": {
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "1335": {
+        "Civil Engineering": 60,
+        "Electrical And Electronics Engineering": 23,
+        "Electronics And Communication Engineering": 30,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "1399": {
+        "Artificial Intelligence And Data Science": 360,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 300,
+        "Computer Science And Bussiness System": 120,
+        "Computer Science And Engineering": 1140,
+        "Civil Engineering": 30,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 360,
+        "Information Technology": 360,
+        "Mechanical Engineering": 120,
+        "Mechatronics Engineering": 60,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Bio Medical Engineering": 60,
+        "Electronics And Communication (Advanced Communication\nTechnology)": 60,
+        "Electronics Engineering (Vlsi Design And Technology)": 60
+    },
+    "1400": {},
+    "1401": {
+        "Civil Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 90,
+        "Computer Science And Engineering": 90,
+        "Information Technology": 60,
+        "Chemical Engineering": 40,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Computer Science And Design": 60,
+        "Agricultural Engineering": 60
+    },
+    "1402": {
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60
+    },
+    "1405": {
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Information Technology": 90,
+        "Artificial Intelligence And Data Science": 180,
+        "Computer Science And Engineering": 180,
+        "Electronics And Communication Engineering": 90,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "1407": {
+        "Computer Science And Engineering (Cyber Security)": 30,
+        "Automobile Engineering": 30,
+        "Bio Medical Engineering": 30,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Marine Engineering": 30,
+        "Information Technology": 30
+    },
+    "1408": {
+        "Artificial Intelligence And Data Science": 180,
+        "Artificial Intelligence And Machine Learning": 60,
+        "Computer Science And Engineering": 180,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 180,
+        "Information Technology": 120,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "1409": {
+        "Automobile Engineering": 30,
+        "Artificial Intelligence And Data Science": 60,
+        "Bio Technology": 60,
+        "Bio Medical Engineering": 60,
+        "Computer Science And Engineering": 120,
+        "Civil Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Robotics And Automation": 60
+    },
+    "1411": {
+        "Aeronautical Engineering": 30,
+        "Bio Technology": 30,
+        "Bio Medical Engineering": 30,
+        "Computer Science And Bussiness System": 30,
+        "Artificial Intelligence And Data Science": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Information Technology": 30,
+        "Mechanical Engineering": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30
+    },
+    "1412": {
+        "Computer Science And Bussiness System": 60,
+        "Mechanical Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 180,
+        "Information Technology": 120,
+        "Civil Engineering": 60,
+        "Artificial Intelligence And Data Science": 180,
+        "Computer Science And Engineering": 240
+    },
+    "1413": {
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Engineering": 120,
+        "Computer Science And Engineering (Cyber Security)": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 120,
+        "Computer Science And Bussiness System": 60,
+        "Computer Science And Design": 60,
+        "Electronics Engineering (Vlsi Design And Technology)": 60,
+        "Electronics And Communication (Advanced Communication\nTechnology)": 60,
+        "Information Technology": 60
+    },
+    "1414": {
+        "Civil Engineering": 30,
+        "Electronics And Communication Engineering": 180,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 90,
+        "Computer Science And Engineering": 90
+    },
+    "1415": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 30,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 30,
+        "Mechanical Engineering": 60
+    },
+    "1416": {
+        "Bio Technology": 30,
+        "Computer Science And Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Bio Medical Engineering": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Pharmaceutical Technology": 30
+    },
+    "1419": {
+        "Computer Science And Engineering (Cyber Security)": 180,
+        "Artificial Intelligence And Data Science": 300,
+        "Civil Engineering": 30,
+        "Electronics And Communication Engineering": 600,
+        "Computer Science And Engineering": 600,
+        "Electrical And Electronics Engineering": 180,
+        "Electronics And Instrumentation Engineering": 120,
+        "Mechanical Engineering": 120,
+        "Information Technology": 480,
+        "Computer Science And Bussiness System": 60,
+        "M.Tech. Computer Science And Engineering (Integrated 5\nYears)": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 180,
+        "Computer Science And Engineering (Internet Of Things)": 120,
+        "Mechatronics Engineering": 60,
+        "Computer And Communication Engineering": 60
+    },
+    "1420": {
+        "Artificial Intelligence And Data Science": 60,
+        "Aeronautical Engineering": 30,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Information Technology": 120,
+        "Mechanical Engineering": 30,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "1421": {
+        "Information Technology": 120,
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "1422": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 180,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 180,
+        "Electronics And Instrumentation Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 120,
+        "Agricultural Engineering": 60,
+        "Cyber Security": 60,
+        "Medical Electronics Engineering": 60,
+        "Artificial Intelligence And Data Science": 120
+    },
+    "1423": {
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Information Technology": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Electrical And Electronics Engineering": 30
+    },
+    "1424": {
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Bussiness System": 30,
+        "Computer Science And Engineering": 180,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 0,
+        "Petroleum Engineering": 30,
+        "Robotics And Automation": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60
+    },
+    "1426": {
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 120,
+        "Information Technology": 90,
+        "Computer Science And Bussiness System": 0,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "1427": {
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Information Technology": 30,
+        "Fashion Technology": 30,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "1428": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Information Technology": 120
+    },
+    "1430": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 150,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "1431": {
+        "Artificial Intelligence And Data Science": 180,
+        "Computer Science And Engineering": 300,
+        "Computer Science And Engineering (Cyber Security)": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 180,
+        "Information Technology": 120,
+        "Mechanical Engineering": 30
+    },
+    "1432": {
+        "Artificial Intelligence And Data Science": 420,
+        "Computer Science And Bussiness System": 120,
+        "Computer And Communication Engineering": 120,
+        "Computer Science And Engineering": 540,
+        "Mechanical Engineering": 120,
+        "Electronics And Communication Engineering": 420,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 120,
+        "Electronics Engineering (Vlsi Design And Technology)": 120,
+        "Bio Technology": 60,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "1434": {
+        "Automobile Engineering": 30,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Agricultural Engineering": 30,
+        "Aeronautical Engineering": 30,
+        "Computer Science And Engineering (Cyber Security)": 30
+    },
+    "1436": {
+        "Artificial Intelligence And Data Science": 60,
+        "Civil Engineering": 30,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30
+    },
+    "1437": {
+        "Artificial Intelligence And Data Science": 60,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Information Technology": 60,
+        "Computer Science And Engineering (Cyber Security)": 30
+    },
+    "1438": {
+        "Mechanical Engineering": 60,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 45,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 45
+    },
+    "1441": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 90,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Information Technology": 60
+    },
+    "1442": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Computer Science And Engineering": 120
+    },
+    "1444": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering (Cyber Security)": 30,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60
+    },
+    "1445": {
+        "Computer Science And Engineering": 180,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "1449": {
+        "Agricultural Engineering": 30,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Information Technology": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "1450": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 60,
+        "Mechanical Engineering": 60
+    },
+    "1452": {
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Bussiness System": 60,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 180,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Information Technology": 120,
+        "Mechanical Engineering": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Computer Science And Engineering (Data Science)": 60,
+        "Robotics And Artificial Intelligence": 60,
+        "Computer Science And Design": 60
+    },
+    "1501": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Information Technology": 60,
+        "Mechanical Engineering": 30,
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering (Cyber Security)": 30
+    },
+    "1503": {
+        "Civil Engineering": 30,
+        "Electronics And Communication Engineering": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Instrumentation And Control Engineering": 0,
+        "Mechanical Engineering": 60,
+        "Information Technology": 30,
+        "Bio Technology": 0,
+        "Chemical Engineering": 0,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "1504": {
+        "Bio Technology": 60,
+        "Computer Science And Engineering": 240,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 120,
+        "Mechanical Engineering": 60,
+        "Civil Engineering": 30,
+        "Chemical Engineering": 30,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Agricultural Engineering": 0,
+        "Artificial Intelligence And Data Science": 180,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 120,
+        "Computer Science And Bussiness System": 60
+    },
+    "1505": {
+        "Artificial Intelligence And Data Science": 60,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Information Technology": 120,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Machine Learning": 60
+    },
+    "1507": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Information Technology": 90,
+        "Mechanical Engineering": 30,
+        "Computer Science And Bussiness System": 30,
+        "Computer Science And Engineering (Cyber Security)": 30
+    },
+    "1509": {
+        "Computer Science And Engineering": 120,
+        "Information Technology": 120,
+        "Electronics And Communication Engineering": 120,
+        "Civil Engineering": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Instrumentation Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Artificial Intelligence And Data Science": 60,
+        "Architecture": 80,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Computer Science And Bussiness System": 60,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "1510": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 90,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "1511": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 45,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60
+    },
+    "1512": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 60,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60
+    },
+    "1513": {
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Information Technology": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Bussiness System": 60
+    },
+    "1514": {
+        "Computer Science And Engineering": 60
+    },
+    "1516": {
+        "Civil Engineering": 60,
+        "Mechanical Engineering": 120,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Robotics And Automation": 60
+    },
+    "1517": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Artificial Intelligence And Data Science": 30,
+        "Mechanical Engineering": 60,
+        "Information Technology": 30,
+        "Agricultural Engineering": 30
+    },
+    "1518": {
+        "Computer Science And Engineering": 90,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Information Technology": 68,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30
+    },
+    "1519": {
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 60,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering": 120,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "1520": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 120,
+        "Computer Science And Bussiness System": 30,
+        "Electronics And Communication Engineering": 60,
+        "Information Technology": 60,
+        "Mechanical Engineering": 30,
+        "Architecture": 40,
+        "Artificial Intelligence And Machine Learning": 60
+    },
+    "1523": {
+        "Artificial Intelligence And Machine Learning": 30,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Information Technology": 120,
+        "Artificial Intelligence And Data Science": 120
+    },
+    "1524": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 30,
+        "Mechanical Engineering": 60,
+        "Information Technology": 30,
+        "Artificial Intelligence And Data Science": 30
+    },
+    "1525": {
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 30,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "1526": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 30,
+        "Mechanical Engineering": 60
+    },
+    "1529": {
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Civil Engineering": 30,
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering (Cyber Security)": 30
+    },
+    "1530": {
+        "Architecture": 40
+    },
+    "1605": {
+        "Computer Science And Engineering": 90,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Information Technology": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "2005": {
+        "Civil Engineering": 120,
+        "Mechanical Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Production Engineering": 60,
+        "Electronics And Instrumentation Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Information Technology": 60,
+        "Industrial Bio Technology": 120,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60
+    },
+    "2006": {
+        "Automobile Engineering (Ss)": 60,
+        "Bio Technology (Ss)": 60,
+        "Bio Medical Engineering (Ss)": 60,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning) (Ss)": 60,
+        "Computer Science And Engineering (Ss)": 138,
+        "Civil Engineering (Ss)": 30,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering (Ss)": 78,
+        "Fashion Technology (Ss)": 60,
+        "Information Technology (Ss)": 138,
+        "Instrumentation And Control Engineering (Ss)": 60,
+        "Mechanical Engineering": 60,
+        "Mechanical Engineering (Ss)": 60,
+        "Mechanical Engineering (Sandwich) (Ss)": 60,
+        "Metallurgical Engineering": 30,
+        "Metallurgical Engineering (Ss)": 30,
+        "Production Engineering (Ss)": 30,
+        "Production Engineering": 30,
+        "Robotics And Automation (Ss)": 60,
+        "Textile Technology": 30,
+        "Textile Technology (Ss)": 30,
+        "Electrical And Electronics Engineering (Ss)": 60
+    },
+    "2007": {
+        "Civil Engineering": 45,
+        "Civil Engineering (Ss)": 15,
+        "Mechanical Engineering": 65,
+        "Mechanical Engineering (Ss)": 55,
+        "Electrical And Electronics Engineering": 65,
+        "Electrical And Electronics Engineering (Ss)": 55,
+        "Electronics And Communication Engineering": 60,
+        "Electronics And Communication Engineering (Ss)": 60,
+        "Computer Science And Engineering": 60,
+        "Computer Science And Engineering (Ss)": 120,
+        "Information Technology (Ss)": 60,
+        "Chemical Engineering": 40,
+        "Chemical Engineering (Ss)": 20,
+        "Artificial Intelligence And Data Science (Ss)": 60,
+        "Electronics Engineering(Vlsi Design And Technology)(Ss)": 60
+    },
+    "2025": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Electronics Engineering(Vlsi Design And Technology)(Ss)": 60
+    },
+    "2302": {
+        "Agricultural Engineering": 30,
+        "Bio Medical Engineering": 60,
+        "Information Technology": 60,
+        "Mechanical Engineering": 60
+    },
+    "2327": {
+        "Computer Science And Engineering": 90,
+        "Electronics And Communication Engineering": 90,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Artificial Intelligence And Data Science": 120,
+        "Information Technology": 60,
+        "Civil Engineering": 30
+    },
+    "2329": {
+        "Agricultural Engineering": 0,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 180,
+        "Artificial Intelligence And Data Science": 360,
+        "Bio Technology": 60,
+        "Computer Science And Engineering": 240,
+        "Electronics And Communication Engineering": 240,
+        "Information Technology": 120,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering (Tamil)": 60,
+        "Computer Science And Engineering (Cyber Security)": 180,
+        "Mechatronics Engineering": 60
+    },
+    "2332": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "2338": {
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Bio Medical Engineering": 60,
+        "Agricultural Engineering": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Information Technology": 60
+    },
+    "2341": {
+        "Artificial Intelligence And Data Science": 90,
+        "Bio Medical Engineering": 60,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 90,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 90,
+        "Information Technology": 60,
+        "Mechanical Engineering": 30
+    },
+    "2342": {
+        "Computer Science And Engineering": 150,
+        "Civil Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Information Technology": 60,
+        "Mechanical Engineering": 30
+    },
+    "2343": {
+        "Handloom And Textile Technology": 60
+    },
+    "2344": {
+        "Architecture": 40
+    },
+    "2345": {
+        "Civil Engineering": 30,
+        "Agricultural Engineering": 30,
+        "Computer Science And Engineering": 180,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Artificial Intelligence And Data Science": 120,
+        "Information Technology": 60,
+        "Robotics And Automation": 30
+    },
+    "2346": {
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Artificial Intelligence And Data Science": 60,
+        "Bio Medical Engineering": 30,
+        "Information Technology": 60
+    },
+    "2347": {
+        "Artificial Intelligence And Data Science": 120,
+        "Agricultural Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 120,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering": 120
+    },
+    "2348": {
+        "Architecture": 40
+    },
+    "2349": {
+        "Computer Science And Engineering": 60,
+        "Bio Medical Engineering": 30,
+        "Food Technology": 30,
+        "Robotics And Automation": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Computer Science And Engineering (Cyber Security)": 30,
+        "Electronics And Communication Engineering": 30,
+        "Information Technology": 30
+    },
+    "2350": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60
+    },
+    "2354": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Information Technology": 60
+    },
+    "2356": {
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 30,
+        "Mechanical Engineering": 60,
+        "Civil Engineering": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Artificial Intelligence And Data Science": 30
+    },
+    "2357": {
+        "Artificial Intelligence And Data Science": 300,
+        "Computer Science And Engineering": 420,
+        "Electronics And Communication Engineering": 360,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 120,
+        "Mechanical Engineering": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 120
+    },
+    "2360": {
+        "Artificial Intelligence And Data Science": 90,
+        "Agricultural Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Mechatronics Engineering": 30,
+        "Information Technology": 30
+    },
+    "2361": {
+        "Architecture": 80,
+        "Bachelor Of Design": 30
+    },
+    "2364": {
+        "Architecture": 20
+    },
+    "2365": {
+        "Architecture": 40
+    },
+    "2367": {
+        "Civil Engineering": 30,
+        "Electronics And Communication Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Bussiness System": 60,
+        "Information Technology": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Computer Science And Engineering": 120
+    },
+    "2368": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60
+    },
+    "2369": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 60
+    },
+    "2372": {
+        "Architecture": 20
+    },
+    "2373": {
+        "Architecture": 80
+    },
+    "2376": {
+        "Architecture": 40
+    },
+    "2377": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 240,
+        "Electrical And Electronics Engineering": 120,
+        "Mechanical Engineering": 120,
+        "Artificial Intelligence And Data Science": 120,
+        "Instrumentation And Control Engineering": 60,
+        "Electronics Engineering (Vlsi Design And Technology)": 60,
+        "Electronics And Communication Engineering": 180
+    },
+    "2601": {
+        "Aeronautical Engineering": 60,
+        "Artificial Intelligence And Data Science": 120,
+        "Bio Medical Engineering": 60,
+        "Bio Technology": 60,
+        "Civil Engineering": 30,
+        "Chemical Engineering": 30,
+        "Computer Science And Engineering": 180,
+        "Electronics And Communication Engineering": 180,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 60,
+        "Mechanical Engineering": 60,
+        "Architecture": 20,
+        "Computer Science And Engineering (Cyber Security)": 120,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Computer Science And Bussiness System": 60
+    },
+    "2602": {
+        "Artificial Intelligence And Data Science": 30,
+        "Agricultural Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 30,
+        "Information Technology": 60,
+        "Mechanical Engineering": 30,
+        "Medical Electronics Engineering": 60,
+        "Robotics And Automation": 30
+    },
+    "2603": {
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Cyber Security": 60
+    },
+    "2607": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 180,
+        "Mechanical Engineering": 60,
+        "Electrical And Electronics Engineering": 90,
+        "Electronics And Communication Engineering": 180,
+        "Textile Technology": 30,
+        "Information Technology": 120,
+        "Bio Technology": 60,
+        "Computer Science And Bussiness System": 0,
+        "Civil Engineering": 60,
+        "Food Technology": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Mechatronics Engineering": 60,
+        "Electronics Engineering (Vlsi Design And Technology)": 60,
+        "Robotics And Automation": 60
+    },
+    "2608": {
+        "Artificial Intelligence And Data Science": 180,
+        "Computer Science And Bussiness System": 60,
+        "Computer Science And Engineering": 180,
+        "Electronics And Communication Engineering": 300,
+        "Electrical And Electronics Engineering": 120,
+        "Information Technology": 120,
+        "Mechanical Engineering": 90,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Electronics Engineering (Vlsi Design And Technology)": 60,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "2609": {
+        "Aeronautical Engineering": 60,
+        "Agricultural Engineering": 60,
+        "Artificial Intelligence And Data Science": 240,
+        "Computer Science And Engineering": 180,
+        "Civil Engineering": 60,
+        "Electronics And Communication Engineering": 180,
+        "Electrical And Electronics Engineering": 120,
+        "Information Technology": 120,
+        "Mechanical Engineering": 60,
+        "Cyber Security": 120,
+        "Mechatronics Engineering": 60
+    },
+    "2610": {
+        "Bio Medical Engineering": 60,
+        "Bio Technology": 60,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 300,
+        "Electronics And Communication Engineering": 240,
+        "Electrical And Electronics Engineering": 120,
+        "Information Technology": 120,
+        "Mechanical Engineering": 120,
+        "Artificial Intelligence And Data Science": 240,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Mechatronics Engineering": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Computer Science And Bussiness System": 60,
+        "Electronics Engineering (Vlsi Design And Technology)": 30
+    },
+    "2611": {
+        "Artificial Intelligence And Data Science": 180,
+        "Agricultural Engineering": 60,
+        "Aeronautical Engineering": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 90,
+        "Bio Technology": 60,
+        "Civil Engineering": 60,
+        "Bio Medical Engineering": 60,
+        "Chemical Engineering": 30,
+        "Computer Science And Engineering (Internet Of Things)": 60,
+        "Computer Science And Engineering": 300,
+        "Cyber Security": 120,
+        "Electronics And Communication Engineering": 180,
+        "Electrical And Electronics Engineering": 120,
+        "Food Technology": 60,
+        "Information Technology": 240,
+        "Mechanical Engineering": 120,
+        "Robotics And Automation": 60,
+        "Pharmaceutical Technology": 60,
+        "Mechatronics Engineering": 60
+    },
+    "2612": {
+        "Bio Medical Engineering": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Information Technology": 60,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60
+    },
+    "2613": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 180,
+        "Electrical And Electronics Engineering": 120,
+        "Electronics And Communication Engineering": 180,
+        "Information Technology": 120,
+        "Mechanical Engineering": 120,
+        "Safety And Fire Engineering": 30,
+        "Computer Science And Engineering (Internet Of Things)": 60,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Bio Medical Engineering": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "2614": {
+        "Electronics And Communication Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Textile Chemistry": 30,
+        "Textile Technology": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Civil Engineering": 30,
+        "Petro Chemical Technology": 30,
+        "Petroleum Engineering": 30,
+        "Information Technology": 60
+    },
+    "2615": {
+        "Civil Engineering": 120,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 120,
+        "Metallurgical Engineering": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60
+    },
+    "2616": {
+        "Artificial Intelligence And Data Science": 30,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Instrumentation Engineering": 30,
+        "Information Technology": 30,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering (Cyber Security)": 30
+    },
+    "2617": {
+        "Civil Engineering": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 120,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 60,
+        "Robotics And Automation": 30,
+        "Medical Electronics Engineering": 60,
+        "Pharmaceutical Technology": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Electronics Engineering (Vlsi Design And Technology)": 60
+    },
+    "2618": {
+        "Artificial Intelligence And Data Science": 180,
+        "Bio Medical Engineering": 60,
+        "Civil Engineering": 60,
+        "Computer Science And Design": 60,
+        "Computer Science And Engineering": 240,
+        "Electrical And Electronics Engineering": 120,
+        "Fashion Technology": 60,
+        "Information Technology": 180,
+        "Mechanical Engineering": 150,
+        "Mechatronics Engineering": 90,
+        "Electronics And Communication Engineering": 240,
+        "Electronics And Computer Engineering": 60,
+        "Electrical And Computer Enginnering": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 90,
+        "Computer Science And Bussiness System": 60,
+        "Safety And Fire Engineering": 30,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Electronics Engineering(Vlsi Design And Technology)(Ss)": 60
+    },
+    "2620": {
+        "Computer Science And Engineering": 240,
+        "Information Technology": 180,
+        "Electronics And Communication Engineering": 180,
+        "Electrical And Electronics Engineering": 60,
+        "Bio Technology": 60,
+        "Bio Medical Engineering": 60,
+        "Artificial Intelligence And Data Science": 120,
+        "Civil Engineering": 30,
+        "Agricultural Engineering": 30,
+        "Artificial Intelligence And Machine Learning": 120
+    },
+    "2621": {
+        "Aeronautical Engineering": 60,
+        "Civil Engineering": 60,
+        "Chemical Engineering": 60,
+        "Computer Science And Bussiness System": 60,
+        "Electronics And Communication Engineering": 120,
+        "Computer Science And Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 120,
+        "Mechatronics": 60,
+        "Mechanical Engineering": 120,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Artificial Intelligence And Data Science": 120
+    },
+    "2622": {
+        "Civil Engineering": 30,
+        "Computer Science And Bussiness System": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 120,
+        "Computer Science And Engineering": 360,
+        "Electronics And Communication Engineering": 540,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 180,
+        "Mechanical Engineering": 60,
+        "Computer And Communication Engineering": 60,
+        "Artificial Intelligence And Data Science": 240
+    },
+    "2623": {
+        "Artificial Intelligence And Data Science": 180,
+        "Bio Medical Engineering": 60,
+        "Computer Science And Engineering": 180,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Information Technology": 120,
+        "Mechanical Engineering": 60
+    },
+    "2624": {
+        "Artificial Intelligence And Data Science": 180,
+        "Agricultural Engineering": 60,
+        "Bio Medical Engineering": 120,
+        "Bio Technology": 60,
+        "Computer Science And Engineering": 180,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 180,
+        "Mechanical Engineering": 60,
+        "Food Technology": 60,
+        "Information Technology": 120,
+        "Pharmaceutical Technology": 60
+    },
+    "2625": {
+        "Agricultural Engineering": 60,
+        "Artificial Intelligence And Data Science": 120,
+        "Bio Medical Engineering": 60,
+        "Chemical Engineering": 30,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 180,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Information Technology": 120,
+        "Mechanical Engineering": 60
+    },
+    "2627": {
+        "Bio Medical Engineering": 60,
+        "Bio Technology": 60,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 60,
+        "Artificial Intelligence And Data Science": 30
+    },
+    "2628": {
+        "Electronics And Communication Engineering": 120,
+        "Artificial Intelligence And Data Science": 90,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Bio Medical Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Computer Science And Engineering": 120,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Mechanical Engineering": 30
+    },
+    "2630": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 60
+    },
+    "2632": {
+        "Automobile Engineering": 60,
+        "Bio Medical Engineering": 60,
+        "Computer Science And Engineering": 240,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 120,
+        "Mechanical Engineering": 120,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 120,
+        "Civil Engineering": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "2633": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering (Cyber Security)": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Artificial Intelligence": 30
+    },
+    "2634": {
+        "Aeronautical Engineering": 60,
+        "Agricultural Engineering": 60,
+        "Artificial Intelligence And Data Science": 180,
+        "Bio Medical Engineering": 120,
+        "Computer Science And Engineering": 240,
+        "Civil Engineering": 60,
+        "Electronics And Communication Engineering": 240,
+        "Food Technology": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 240,
+        "Safety And Fire Engineering": 60,
+        "Computer Science And Bussiness System": 60,
+        "Electrical And Electronics Engineering": 120,
+        "Petro Chemical Technology": 60,
+        "M.Tech. Computer Science And Engineering (Integrated 5\nYears)": 60,
+        "Artificial Intelligence And Machine Learning": 60,
+        "Architecture": 40
+    },
+    "2635": {
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Electronics And Communication Engineering": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Bio Medical Engineering": 60,
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Engineering": 120
+    },
+    "2636": {
+        "Artificial Intelligence And Data Science": 240,
+        "Bio Medical Engineering": 60,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 180,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 120,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Machine Learning": 60
+    },
+    "2638": {
+        "Computer Science And Engineering": 180,
+        "Electronics And Communication Engineering": 60,
+        "Information Technology": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "2639": {
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Artificial Intelligence And Data Science": 180,
+        "Computer Science And Engineering": 240,
+        "Information Technology": 60,
+        "Mechanical Engineering": 30,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60
+    },
+    "2640": {
+        "Computer Science And Engineering": 120,
+        "Artificial Intelligence And Data Science": 90,
+        "Civil Engineering": 30,
+        "Electronics And Communication Engineering": 90,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 60,
+        "Agricultural Engineering": 0
+    },
+    "2641": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 90,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Information Technology": 90,
+        "Artificial Intelligence And Data Science": 90
+    },
+    "2642": {
+        "Civil Engineering": 30,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Bio Medical Engineering": 30,
+        "Information Technology": 120,
+        "Computer Science And Engineering": 120,
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Engineering (Cyber Security)": 120
+    },
+    "2643": {
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Information Technology": 60
+    },
+    "2646": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 60
+    },
+    "2647": {
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 60,
+        "Mechanical Engineering": 60
+    },
+    "2648": {
+        "Automobile Engineering": 60,
+        "Civil Engineering": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Bio Medical Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 60,
+        "Mechanical Engineering": 60
+    },
+    "2650": {
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Information Technology": 60,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Machine Learning": 60,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "2651": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 90,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Fashion Technology": 60,
+        "Information Technology": 60
+    },
+    "2652": {
+        "Artificial Intelligence And Data Science": 30,
+        "Information Technology": 30,
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 30,
+        "Mechanical Engineering": 60
+    },
+    "2653": {
+        "Mechanical Engineering": 120,
+        "Electrical And Electronics Engineering": 120,
+        "Civil Engineering": 60,
+        "Computer Science And Bussiness System": 60,
+        "Electronics And Communication Engineering": 180,
+        "Computer Science And Engineering": 240,
+        "Information Technology": 120,
+        "Artificial Intelligence And Data Science": 120,
+        "Electronics And Computer Engineering": 60
+    },
+    "2656": {
+        "Artificial Intelligence And Data Science": 60,
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Machine Learning": 60,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Information Technology": 120
+    },
+    "2658": {
+        "Civil Engineering": 30,
+        "Bio Medical Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Information Technology": 60,
+        "Mechanical Engineering": 30,
+        "Artificial Intelligence And Data Science": 30
+    },
+    "2659": {
+        "Artificial Intelligence And Data Science": 30,
+        "Bio Medical Engineering": 60,
+        "Civil Engineering": 30,
+        "Bio Technology": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Information Technology": 60,
+        "Mechanical Engineering": 60
+    },
+    "2667": {
+        "Architecture": 40
+    },
+    "2673": {
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Computer Science And Engineering (Cyber Security)": 90,
+        "Information Technology": 90,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 120,
+        "Civil Engineering": 30,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 120
+    },
+    "2683": {
+        "Agricultural Engineering": 30,
+        "Bio Medical Engineering": 60,
+        "Information Technology": 60,
+        "Computer Science And Engineering": 120,
+        "Mechanical Engineering": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Artificial Intelligence And Data Science": 90,
+        "Electronics And Communication Engineering": 60
+    },
+    "2684": {
+        "Architecture": 40
+    },
+    "2702": {
+        "Computer Science And Engineering": 360,
+        "Electronics And Communication Engineering": 360,
+        "Electrical And Electronics Engineering": 120,
+        "Electronics And Instrumentation Engineering": 120,
+        "Mechatronics Engineering": 120,
+        "Mechanical Engineering": 120,
+        "Artificial Intelligence And Data Science": 360,
+        "Agricultural Engineering": 60,
+        "Artificial Intelligence And Machine Learning": 0,
+        "Bio Technology": 180,
+        "Information Technology": 360
+    },
+    "2704": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Information Technology": 60,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Electronics Engineering (Vlsi Design And Technology)": 30,
+        "Mechatronics Engineering": 60,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Artificial Intelligence And Data Science": 120
+    },
+    "2705": {
+        "Computer Science And Engineering": 120,
+        "Information Technology": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Electronics And Communication Engineering": 30,
+        "Mechanical Engineering": 30
+    },
+    "2706": {
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 120,
+        "Information Technology": 180,
+        "Automobile Engineering": 60,
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 180,
+        "Mechanical Engineering": 60,
+        "Electronics Engineering (Vlsi Design And Technology)": 60
+    },
+    "2707": {
+        "Artificial Intelligence And Data Science": 180,
+        "Agricultural Engineering": 30,
+        "Bio Medical Engineering": 120,
+        "Computer Science And Design": 60,
+        "Civil Engineering": 30,
+        "Chemical Engineering": 60,
+        "M.Tech. Computer Science And Engineering (Integrated 5\nYears)": 60,
+        "Electronics And Communication Engineering": 180,
+        "Electrical And Electronics Engineering": 120,
+        "Electronics And Instrumentation Engineering": 60,
+        "Computer Science And Engineering": 180,
+        "Information Technology": 180,
+        "Mechanical Engineering": 60,
+        "Mechanical Engineering (Tamil Medium)": 30,
+        "Robotics And Automation": 60,
+        "Bio Technology": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Computer Science And Engineering (Internet Of Things)": 60,
+        "Electronics And Communication Engineering (Vlsi Design And": 60
+    },
+    "2708": {
+        "Aeronautical Engineering": 60,
+        "Agricultural Engineering": 60,
+        "Artificial Intelligence And Machine Learning": 120,
+        "Automobile Engineering": 60,
+        "Bio Medical Engineering": 60,
+        "Civil Engineering": 60,
+        "Chemical Engineering": 60,
+        "Computer Science And Engineering": 240,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Instrumentation Engineering": 60,
+        "Food Technology": 60,
+        "Information Technology": 120,
+        "Mechanical Engineering": 120,
+        "Mechatronics Engineering": 120,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Computer Science And Bussiness System": 60
+    },
+    "2709": {
+        "Automobile Engineering": 60,
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 60,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering (Data Science)": 60
+    },
+    "2710": {
+        "Electronics Engineering (Vlsi Design And Technology)": 60,
+        "Artificial Intelligence And Data Science": 240,
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 420,
+        "Electronics And Communication Engineering": 420,
+        "Electrical And Electronics Engineering": 180,
+        "Information Technology": 240,
+        "Mechanical Engineering": 180,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "2711": {
+        "Artificial Intelligence And Data Science": 180,
+        "Artificial Intelligence And Machine Learning": 60,
+        "Automobile Engineering": 60,
+        "Civil Engineering": 60,
+        "Computer Science And Design": 120,
+        "Computer Science And Engineering": 360,
+        "Chemical Engineering": 60,
+        "Electronics And Communication Engineering": 240,
+        "Electrical And Electronics Engineering": 120,
+        "Electronics And Instrumentation Engineering": 120,
+        "Food Technology": 60,
+        "Mechanical Engineering": 120,
+        "Information Technology": 180,
+        "Mechatronics Engineering": 120,
+        "Architecture": 40
+    },
+    "2712": {
+        "Artificial Intelligence And Data Science": 120,
+        "Aeronautical Engineering": 69,
+        "Automobile Engineering": 30,
+        "Civil Engineering": 90,
+        "Computer Science And Engineering": 420,
+        "Electronics And Communication Engineering": 207,
+        "Electronics And Instrumentation Engineering": 69,
+        "Fashion Technology": 30,
+        "Information Technology": 129,
+        "Mechanical Engineering": 90,
+        "Mechatronics Engineering": 69,
+        "Textile Technology": 30,
+        "Bio Technology": 69,
+        "Electrical And Electronics Engineering": 138
+    },
+    "2713": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 60,
+        "Mechanical Engineering": 60
+    },
+    "2715": {
+        "Agricultural Engineering": 60,
+        "Bio Medical Engineering": 60,
+        "Computer Science And Engineering": 240,
+        "Civil Engineering": 30,
+        "Chemical Engineering": 30,
+        "Electronics And Communication Engineering": 180,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 120,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering (Internet Of Things)": 60,
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "2716": {
+        "Aeronautical Engineering": 60,
+        "Agricultural Engineering": 60,
+        "Bio Medical Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Geo Informatics": 30,
+        "Information Technology": 90,
+        "Medical Electronics Engineering": 30,
+        "Mechanical Engineering": 60,
+        "Mechatronics Engineering": 30,
+        "Robotics And Automation": 30,
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering (Cyber Security)": 30,
+        "Computer Science And Engineering": 90,
+        "Fashion Technology": 30
+    },
+    "2717": {
+        "Computer Science And Engineering": 120,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Information Technology": 60,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 30
+    },
+    "2718": {
+        "Artificial Intelligence And Data Science": 540,
+        "Computer Science And Bussiness System": 69,
+        "Civil Engineering": 90,
+        "M.Tech. Computer Science And Engineering (Integrated 5\nYears)": 60,
+        "Computer Science And Engineering": 1080,
+        "Electronics And Communication Engineering": 540,
+        "Electrical And Electronics Engineering": 180,
+        "Information Technology": 540,
+        "Mechanical Engineering": 198,
+        "Computer Science And Engineering (Cyber Security)": 180,
+        "Mechatronics Engineering": 138,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Computer Science And Engineering (Internet Of Things)": 0
+    },
+    "2719": {
+        "Aeronautical Engineering": 30,
+        "Bio Medical Engineering": 60,
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 180,
+        "Electronics And Communication Engineering": 180,
+        "Electrical And Electronics Engineering": 90,
+        "Electronics And Instrumentation Engineering": 60,
+        "Information Technology": 120,
+        "Mechanical Engineering": 90,
+        "Robotics And Automation": 60,
+        "Artificial Intelligence And Data Science": 30,
+        "M.Tech. Computer Science And Engineering (Integrated 5\nYears)": 60
+    },
+    "2721": {
+        "Automobile Engineering": 30,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Instrumentation And Control Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Information Technology": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "2723": {
+        "Bio Medical Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 180,
+        "Mechanical Engineering": 60,
+        "Medical Electronics Engineering": 60,
+        "Information Technology": 180,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Computer Science And Engineering": 180,
+        "Artificial Intelligence And Data Science": 120,
+        "Civil Engineering": 60,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "2725": {
+        "Computer Science And Engineering": 180,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 120,
+        "Mechanical Engineering": 30,
+        "Information Technology": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "2726": {
+        "Bio Medical Engineering": 60,
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 360,
+        "Electronics And Communication Engineering": 360,
+        "Electrical And Electronics Engineering": 90,
+        "Mechanical Engineering": 150,
+        "Food Technology": 60,
+        "Artificial Intelligence And Machine Learning": 120,
+        "Aerospace Engineering": 30,
+        "Information Technology": 120,
+        "Mechatronics Engineering": 60,
+        "Artificial Intelligence And Data Science": 180,
+        "Computer Science And Engineering (Internet Of Things And\nCyber Security Including Block Chain Technology)": 120,
+        "Computer Science And Technology": 60,
+        "Computer Science And Design": 60,
+        "Mechanical And Mechatronics Engineering (Additive\nManufacturing)": 60,
+        "Data Science": 60
+    },
+    "2727": {
+        "Information Technology": 180,
+        "Electronics And Communication Engineering": 240,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Agricultural Engineering": 60,
+        "Bio Technology": 60,
+        "Bio Medical Engineering": 60,
+        "Civil Engineering": 60,
+        "Food Technology": 60,
+        "Artificial Intelligence And Machine Learning": 180,
+        "Computer Science And Engineering (Cyber Security)": 120,
+        "Electronics Engineering (Vlsi Design And Technology)": 60,
+        "Computer Science And Engineering": 360,
+        "Artificial Intelligence And Data Science": 300
+    },
+    "2728": {
+        "Architecture": 30
+    },
+    "2729": {
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Bussiness System": 60,
+        "Aeronautical Engineering": 120,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 60,
+        "Mechatronics Engineering": 60
+    },
+    "2731": {
+        "Electronics And Communication Engineering": 60,
+        "Artificial Intelligence And Data Science": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 60,
+        "Petro Chemical Technology": 30,
+        "Bio Medical Engineering": 60,
+        "Computer Science And Engineering": 120
+    },
+    "2732": {
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Information Technology": 60,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 90
+    },
+    "2733": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Fashion Technology": 60
+    },
+    "2734": {
+        "Computer Science And Engineering": 90,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Information Technology": 60,
+        "Mechanical Engineering": 60,
+        "Mechanical And Mechatronics Engineering (Additive\nManufacturing)": 60,
+        "Computer Science And Technology": 60,
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Engineering (Internet Of Things And\nCyber Security Including Block Chain Technology)": 60,
+        "Computer Science And Design": 60
+    },
+    "2735": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 180,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 60,
+        "Mechanical Engineering": 60
+    },
+    "2736": {
+        "Artificial Intelligence And Data Science": 120,
+        "Bio Medical Engineering": 60,
+        "Computer Science And Bussiness System": 60,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 240,
+        "Electronics And Communication Engineering": 180,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 120,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "2737": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Computer Science And Engineering (Cyber Security)": 30,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 60,
+        "Information Technology": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "2739": {
+        "Computer Science And Engineering": 240,
+        "Electronics And Communication Engineering": 180,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Computer And Communication Engineering": 60,
+        "Information Technology": 60,
+        "Artificial Intelligence And Data Science": 240,
+        "Computer Science And Bussiness System": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 120,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Electronics Engineering (Vlsi Design And Technology)": 30
+    },
+    "2740": {
+        "Aeronautical Engineering": 60,
+        "Computer Science And Engineering": 180,
+        "Electronics And Communication Engineering": 120,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 180,
+        "Information Technology": 120
+    },
+    "2741": {
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 60,
+        "Mechanical Engineering": 60,
+        "Civil Engineering": 30
+    },
+    "2743": {
+        "Bio Medical Engineering": 120,
+        "Computer Science And Engineering": 300,
+        "Electronics And Communication Engineering": 240,
+        "Electrical And Electronics Engineering": 60,
+        "Food Technology": 60,
+        "Mechanical Engineering": 120,
+        "Civil Engineering": 0,
+        "Computer Science And Engineering (Cyber Security)": 120
+    },
+    "2744": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "2745": {
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Computer And Communication Engineering": 30,
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 30
+    },
+    "2747": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 120,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Information Technology": 60,
+        "Bio Medical Engineering": 60,
+        "Pharmaceutical Technology": 60,
+        "Bio Technology": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Robotics And Automation": 60
+    },
+    "2748": {
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Computer Science And Engineering (Cyber Security)": 30,
+        "Artificial Intelligence And Data Science": 60,
+        "Bio Medical Engineering": 60,
+        "Information Technology": 120,
+        "Mechanical Engineering": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30
+    },
+    "2749": {
+        "Artificial Intelligence And Data Science": 60,
+        "Agricultural Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Information Technology": 60,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Bio Medical Engineering": 60
+    },
+    "2750": {
+        "Artificial Intelligence And Data Science": 180,
+        "Aeronautical Engineering": 60,
+        "Bio Medical Engineering": 30,
+        "Bio Technology": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 120,
+        "Computer Science And Bussiness System": 60,
+        "Computer Science And Engineering": 300,
+        "Electronics And Communication Engineering": 180,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Electronics Engineering (Vlsi Design And Technology)": 60,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "2751": {
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Bussiness System": 60,
+        "Computer Science And Engineering": 180,
+        "Electronics And Communication Engineering": 120,
+        "Information Technology": 120,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 120,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Robotics And Automation": 60
+    },
+    "2752": {
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 120,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "2753": {
+        "Agricultural Engineering": 30,
+        "Bio Medical Engineering": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Artificial Intelligence And Data Science": 120,
+        "Information Technology": 90
+    },
+    "2755": {
+        "Aeronautical Engineering": 60,
+        "Agricultural Engineering": 30,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 120,
+        "Food Technology": 60,
+        "Information Technology": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Computer And Communication Engineering": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "2758": {
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Information Technology": 60,
+        "Civil Engineering": 30,
+        "Automobile Engineering": 30,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "2759": {
+        "Architecture": 40
+    },
+    "2761": {
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 120,
+        "Robotics And Automation": 30,
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Information Technology": 60
+    },
+    "2762": {
+        "Artificial Intelligence And Data Science": 120,
+        "Civil Engineering": 30,
+        "Computer Science And Bussiness System": 60,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 120,
+        "Mechanical Engineering": 30
+    },
+    "2763": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 30,
+        "Computer Science And Bussiness System": 30,
+        "Civil Engineering": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 90,
+        "Mechanical Engineering": 60,
+        "Mechatronics Engineering": 30
+    },
+    "2764": {
+        "Artificial Intelligence And Data Science": 180,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 120,
+        "Bio Medical Engineering": 60,
+        "Chemical Engineering": 60,
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 120,
+        "Computer Science And Bussiness System": 60,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 180,
+        "Mechatronics Engineering": 60,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Electronics Engineering (Vlsi Design And Technology)": 60
+    },
+    "2767": {
+        "Artificial Intelligence And Data Science": 30,
+        "Bio Medical Engineering": 60,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 30,
+        "Computer Science And Engineering (Cyber Security)": 30
+    },
+    "2768": {
+        "Aerospace Engineering": 30,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 30,
+        "Environmental Engineering": 30,
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Mechanical Engineering": 30
+    },
+    "2769": {
+        "Bio Technology And Bio Chemical Engineering": 60,
+        "Civil Engineering": 30,
+        "Computer Science And Bussiness System": 90,
+        "Electronics And Communication Engineering": 150,
+        "Mechanical Engineering": 60,
+        "Food Technology": 60,
+        "Artificial Intelligence And Data Science": 180,
+        "Computer Science And Engineering": 180,
+        "Electrical And Electronics Engineering": 30,
+        "Petroleum Engineering": 60,
+        "Petro Chemical Technology": 60
+    },
+    "2770": {
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Artificial Intelligence And Data Science": 120,
+        "Information Technology": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Computer Science And Engineering (Cyber Security)": 30
+    },
+    "2772": {
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Information Technology": 30,
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Electrical And Electronics Engineering": 30
+    },
+    "2776": {
+        "Automobile Engineering": 30,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Mechatronics Engineering": 30,
+        "Artificial Intelligence And Data Science": 120
+    },
+    "2778": {},
+    "2779": {
+        "Architecture": 80
+    },
+    "3011": {
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Computer Science And Engineering (Data Science)": 60,
+        "Electronics Engineering (Vlsi Design And Technology)": 60,
+        "Bio Technology": 60,
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 60,
+        "Mechanical Engineering": 60,
+        "Petro Chemical Technology": 60,
+        "Pharmaceutical Technology": 60,
+        "Civil Engineering (Tamil Medium)": 60,
+        "Mechanical Engineering (Tamil Medium)": 60,
+        "Mechanical Engineering(Automobile)": 60,
+        "Electrical And Computer Enginnering": 60,
+        "Civil Engineering(Environmental Engineering)": 60,
+        "Mechanical And Smart Manufacturing": 60
+    },
+    "3016": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Civil Engineering (Tamil Medium)": 30,
+        "Mechanical Engineering (Tamil Medium)": 30
+    },
+    "3018": {
+        "Computer Science And Engineering": 90,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Civil Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Artificial Intelligence And Data Science": 30,
+        "Electronics And Computer Engineering": 30,
+        "Civil Engineering (Tamil Medium)": 30,
+        "Mechanical Engineering (Tamil Medium)": 30
+    },
+    "3019": {
+        "Civil Engineering": 30,
+        "Civil Engineering (Tamil Medium)": 30,
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Mechanical Engineering (Tamil Medium)": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60
+    },
+    "3021": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Civil Engineering (Tamil Medium)": 30,
+        "Mechanical Engineering (Tamil Medium)": 30
+    },
+    "1339": {
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Computer Science And Engineering (Cyber Security)": 30,
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30
+    },
+    "3410": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "3425": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 60,
+        "Civil Engineering": 30,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Bio Medical Engineering": 30,
+        "Robotics And Automation": 30,
+        "Information Technology": 30
+    },
+    "3446": {},
+    "3454": {
+        "Artificial Intelligence And Data Science": 60,
+        "Bio Medical Engineering": 60,
+        "Computer Science And Engineering": 150,
+        "Agricultural Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Computer Science And Engineering (Cyber Security)": 30
+    },
+    "3456": {
+        "Agricultural Engineering": 0,
+        "Computer Science And Engineering": 90,
+        "Mechanical Engineering": 60,
+        "Bio Medical Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 30,
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30
+    },
+    "3460": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60
+    },
+    "3461": {
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering (Cyber Security)": 30,
+        "Information Technology": 30,
+        "Mechanical Engineering": 30
+    },
+    "3464": {
+        "Civil Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Robotics And Automation": 60
+    },
+    "3465": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Mechatronics Engineering": 60
+    },
+    "3466": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Bio Medical Engineering": 60
+    },
+    "3467": {
+        "Architecture": 40
+    },
+    "3701": {
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Civil Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Computer Science And Engineering": 180,
+        "Artificial Intelligence And Data Science": 120,
+        "Information Technology": 60
+    },
+    "3760": {
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Artificial Intelligence And Machine Learning": 60,
+        "Electrical And Electronics Engineering": 60
+    },
+    "3766": {
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 30,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Information Technology": 60
+    },
+    "3782": {
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Artificial Intelligence And Data Science": 60,
+        "Information Technology": 60,
+        "Computer Science And Bussiness System": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60
+    },
+    "3783": {},
+    "3784": {
+        "Architecture": 40
+    },
+    "3786": {
+        "Artificial Intelligence And Data Science": 90,
+        "Aeronautical Engineering": 60,
+        "Bio Medical Engineering": 90,
+        "Computer Science And Engineering": 90,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Mechatronics Engineering": 30,
+        "Information Technology": 60
+    },
+    "3795": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 300,
+        "Electronics And Communication Engineering": 180,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 120,
+        "Artificial Intelligence And Data Science": 180,
+        "Information Technology": 120,
+        "Artificial Intelligence And Machine Learning": 60
+    },
+    "3801": {
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Instrumentation And Control Engineering": 30,
+        "Information Technology": 120,
+        "Artificial Intelligence And Data Science": 60,
+        "Civil Engineering": 30,
+        "Mechanical Engineering": 30
+    },
+    "3803": {
+        "Chemical Engineering": 30,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 90,
+        "Electronics And Communication Engineering": 90,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 90,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "3804": {
+        "Artificial Intelligence And Data Science": 60,
+        "Bio Medical Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 48,
+        "Mechanical Engineering": 60,
+        "Information Technology": 60,
+        "Computer Science And Engineering": 120
+    },
+    "3805": {
+        "Aeronautical Engineering": 60,
+        "Artificial Intelligence And Data Science": 180,
+        "Bio Medical Engineering": 60,
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 180,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 180,
+        "Food Technology": 60,
+        "Information Technology": 180,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "3806": {
+        "Information Technology": 120,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 120,
+        "Civil Engineering": 60,
+        "Bio Medical Engineering": 60,
+        "Computer Science And Bussiness System": 60,
+        "Artificial Intelligence And Data Science": 120,
+        "Artificial Intelligence And Machine Learning": 60,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "3807": {
+        "Artificial Intelligence And Data Science": 180,
+        "Aeronautical Engineering": 30,
+        "Computer Science And Engineering": 240,
+        "Civil Engineering": 30,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 120,
+        "Information Technology": 120,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "3808": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 30
+    },
+    "3810": {
+        "Artificial Intelligence And Data Science": 120,
+        "Agricultural Engineering": 60,
+        "Computer Science And Engineering": 150,
+        "Civil Engineering": 30,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Instrumentation Engineering": 30,
+        "Information Technology": 90,
+        "Mechanical Engineering": 60,
+        "Food Technology": 60,
+        "Bio Medical Engineering": 120,
+        "Bio Technology": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Cyber Security": 60
+    },
+    "3811": {
+        "Civil Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Information Technology": 120,
+        "Computer Science And Engineering": 180,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Bio Medical Engineering": 30
+    },
+    "3812": {
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Artificial Intelligence And Data Science": 60,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 30,
+        "Electronics And Instrumentation Engineering": 30,
+        "Information Technology": 90,
+        "Mechanical Engineering": 60,
+        "Electrical And Electronics Engineering": 30
+    },
+    "3813": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 90,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Information Technology": 90,
+        "Mechanical Engineering": 30,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "3814": {
+        "Electrical And Electronics Engineering": 30,
+        "Civil Engineering": 60,
+        "Artificial Intelligence And Data Science": 30,
+        "Electronics And Communication Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Mechanical Engineering": 60
+    },
+    "3815": {
+        "Artificial Intelligence And Data Science": 30,
+        "Bio Medical Engineering": 30,
+        "Bio Technology": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Information Technology": 60,
+        "Mechanical Engineering": 30,
+        "Textile Technology": 0,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30
+    },
+    "3817": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Bio Technology": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "3819": {
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 60,
+        "Instrumentation And Control Engineering": 30,
+        "Mechanical Engineering": 60,
+        "Civil Engineering": 30,
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Bussiness System": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60
+    },
+    "3820": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 150,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Artificial Intelligence And Data Science": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Mechatronics": 60,
+        "Computer Science And Engineering (Cyber Security)": 30,
+        "Computer Science And Bussiness System": 60
+    },
+    "3821": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 90,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Agricultural Engineering": 60,
+        "Bio Medical Engineering": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "3822": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 30,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 30,
+        "Information Technology": 30,
+        "Electrical And Electronics Engineering": 60,
+        "Bio Medical Engineering": 60
+    },
+    "3825": {
+        "Information Technology": 120,
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "3826": {
+        "Agricultural Engineering": 60,
+        "Artificial Intelligence And Data Science": 180,
+        "Bio Medical Engineering": 60,
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 180,
+        "Electronics And Communication Engineering": 180,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 120,
+        "Mechanical Engineering": 120
+    },
+    "3829": {
+        "Artificial Intelligence And Data Science": 120,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 120,
+        "Information Technology": 60,
+        "Mechanical Engineering": 30,
+        "Bio Medical Engineering": 60
+    },
+    "3830": {
+        "Mechanical Engineering": 60,
+        "Electronics And Communication Engineering": 180,
+        "Computer Science And Engineering": 180,
+        "Electrical And Electronics Engineering": 60,
+        "Computer Science And Bussiness System": 60,
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Information Technology": 120
+    },
+    "3831": {
+        "Artificial Intelligence And Data Science": 60,
+        "Agricultural Engineering": 60,
+        "Computer Science And Engineering": 120,
+        "Information Technology": 120,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Bio Medical Engineering": 60
+    },
+    "3833": {
+        "Aeronautical Engineering": 30,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Information Technology": 60,
+        "Artificial Intelligence And Data Science": 30
+    },
+    "3841": {
+        "Artificial Intelligence And Data Science": 120,
+        "Civil Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Electronics And Communication Engineering": 120,
+        "Computer Science And Engineering": 120,
+        "Bachelor Of Design": 30
+    },
+    "3843": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 90,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 60,
+        "Information Technology": 90,
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Bio Medical Engineering": 30
+    },
+    "3844": {
+        "Computer Science And Engineering": 120,
+        "Bio Medical Engineering": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Computer Science And Engineering (Cyber Security)": 30,
+        "Information Technology": 60,
+        "Electronics And Communication Engineering": 30,
+        "Mechanical Engineering": 30
+    },
+    "3845": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Computer Science And Engineering (Cyber Security)": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 60,
+        "Bio Medical Engineering": 30,
+        "Information Technology": 60
+    },
+    "3846": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Bussiness System": 60,
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 30,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Robotics And Automation": 30
+    },
+    "3848": {
+        "Civil Engineering": 30,
+        "Mechanical Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Information Technology": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "3849": {
+        "Civil Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Information Technology": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "3850": {
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Artificial Intelligence And Data Science": 60,
+        "Information Technology": 30
+    },
+    "3852": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Information Technology": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "3854": {
+        "Computer Science And Engineering": 30,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Agricultural Engineering": 30,
+        "Information Technology": 30,
+        "Artificial Intelligence And Data Science": 30,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering (Cyber Security)": 0
+    },
+    "3855": {
+        "Artificial Intelligence And Data Science": 30,
+        "Civil Engineering": 30,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Information Technology": 30,
+        "Cyber Security": 30
+    },
+    "3857": {
+        "Civil Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Bio Medical Engineering": 30,
+        "Agricultural Engineering": 30,
+        "Artificial Intelligence And Data Science": 30
+    },
+    "3860": {
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60
+    },
+    "3905": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 120,
+        "Civil Engineering": 30,
+        "Mechanical Engineering": 60,
+        "Information Technology": 30
+    },
+    "3908": {
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Civil Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Artificial Intelligence And Data Science": 60,
+        "Information Technology": 60
+    },
+    "3918": {
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Computer Science And Engineering": 60,
+        "Civil Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Electronics And Communication Engineering": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Computer Science And Engineering (Cyber Security)": 30,
+        "Artificial Intelligence And Data Science": 30,
+        "Information Technology": 30
+    },
+    "3920": {
+        "Artificial Intelligence And Data Science": 120,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 120,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Electronics And Communication Engineering": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Cyber Security": 60,
+        "Information Technology": 60
+    },
+    "3923": {
+        "Artificial Intelligence And Data Science": 30,
+        "Civil Engineering": 30,
+        "Electronics And Communication Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 30
+    },
+    "3926": {
+        "Civil Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 90,
+        "Information Technology": 60
+    },
+    "4020": {
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Geo Informatics": 60,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "4023": {
+        "Civil Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 60,
+        "Civil Engineering (Tamil Medium)": 30,
+        "Mechanical Engineering (Tamil Medium)": 30
+    },
+    "4024": {
+        "Civil Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Civil Engineering (Tamil Medium)": 30,
+        "Mechanical Engineering (Tamil Medium)": 30,
+        "Computer Science And Engineering": 30
+    },
+    "4669": {
+        "Civil Engineering": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering (Cyber Security)": 30,
+        "Information Technology": 60
+    },
+    "4670": {
+        "Agricultural Engineering": 60,
+        "Bio Medical Engineering": 60,
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 180,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 120,
+        "Artificial Intelligence And Data Science": 120,
+        "Artificial Intelligence And Machine Learning": 120
+    },
+    "4671": {
+        "Architecture": 40
+    },
+    "4672": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 120,
+        "Bio Medical Engineering": 60
+    },
+    "4675": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Computer Science And Bussiness System": 30,
+        "Artificial Intelligence And Data Science": 30,
+        "Electrical And Electronics Engineering": 30
+    },
+    "4676": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 60,
+        "Computer Science And Bussiness System": 60
+    },
+    "4677": {
+        "Computer Science And Engineering": 180,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Artificial Intelligence And Data Science": 180,
+        "Information Technology": 60,
+        "Mechanical Engineering": 60
+    },
+    "4678": {
+        "Artificial Intelligence And Data Science": 120,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 180,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 120,
+        "Mechanical Engineering": 30,
+        "Computer Science And Bussiness System": 60,
+        "Information Technology": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "4679": {
+        "Architecture": 20
+    },
+    "4680": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 180,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 120,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Information Technology": 60,
+        "Electronics Engineering (Vlsi Design And Technology)": 60
+    },
+    "4686": {
+        "Information Technology": 30,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "4864": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 90,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30
+    },
+    "4917": {
+        "Artificial Intelligence And Data Science": 180,
+        "Agricultural Engineering": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 120,
+        "Bio Medical Engineering": 60,
+        "Bio Technology": 30,
+        "Computer Science And Bussiness System": 60,
+        "Computer Science And Design": 60,
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 300,
+        "Electronics And Communication Engineering": 300,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 120,
+        "Mechanical Engineering": 90,
+        "Computer Science And Engineering (Internet Of Things)": 60,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Electronics Engineering (Vlsi Design And Technology)": 30
+    },
+    "4925": {
+        "Artificial Intelligence And Data Science": 120,
+        "Automobile Engineering": 30,
+        "Bio Technology And Bio Chemical Engineering": 30,
+        "Chemical Engineering": 60,
+        "Civil Engineering": 180,
+        "Computer Science And Engineering": 120,
+        "Electrical And Electronics Engineering": 120,
+        "Food Technology": 30,
+        "Information Technology": 60,
+        "Mechanical Engineering": 120,
+        "Medical Electronics Engineering": 90,
+        "Petro Chemical Technology": 30,
+        "Pharmaceutical Technology": 30
+    },
+    "4927": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 30,
+        "Mechanical Engineering": 60,
+        "Automobile Engineering": 30,
+        "Artificial Intelligence And Machine Learning": 30,
+        "Information Technology": 30,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "4928": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Mechanical Engineering": 60
+    },
+    "4929": {
+        "Computer Science And Engineering": 90,
+        "Civil Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 30
+    },
+    "4931": {
+        "Artificial Intelligence And Data Science": 60,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 30,
+        "Mechanical Engineering": 30
+    },
+    "4932": {
+        "Civil Engineering": 30
+    },
+    "4933": {
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 90,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Artificial Intelligence And Data Science": 120
+    },
+    "4934": {
+        "Bio Medical Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Artificial Intelligence And Data Science": 30,
+        "Information Technology": 30
+    },
+    "4937": {},
+    "4938": {
+        "Agricultural Engineering": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Bio Medical Engineering": 60
+    },
+    "4941": {
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 60
+    },
+    "4943": {},
+    "4944": {
+        "Artificial Intelligence And Data Science": 240,
+        "Computer Science And Engineering": 240,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 180,
+        "Information Technology": 60
+    },
+    "4946": {
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 30,
+        "Information Technology": 60,
+        "Mechanical Engineering": 60
+    },
+    "4949": {
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Civil Engineering": 30,
+        "Industrial Engineering And Management": 30,
+        "Computer Science And Engineering": 60,
+        "Mechatronics Engineering": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Information Technology": 30
+    },
+    "4952": {
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "4953": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Information Technology": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 90
+    },
+    "4954": {
+        "Civil Engineering": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Information Technology": 60
+    },
+    "4955": {
+        "Artificial Intelligence And Data Science": 180,
+        "Computer Science And Engineering": 240,
+        "Electronics And Communication Engineering": 240,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 180,
+        "Civil Engineering": 30
+    },
+    "4956": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 30,
+        "Electrical And Electronics Engineering": 34,
+        "Electronics And Communication Engineering": 45,
+        "Instrumentation And Control Engineering": 34,
+        "Mechanical Engineering": 51,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "4957": {
+        "Computer Science And Engineering": 120,
+        "Information Technology": 60,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Bio Medical Engineering": 60
+    },
+    "4959": {
+        "Bio Technology": 60,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 180,
+        "Electronics And Communication Engineering": 180,
+        "Information Technology": 120,
+        "Mechanical Engineering": 30,
+        "Electrical And Electronics Engineering": 60,
+        "Mechatronics Engineering": 60,
+        "Artificial Intelligence And Data Science": 120
+    },
+    "4960": {
+        "Civil Engineering": 120,
+        "Electrical And Electronics Engineering": 120,
+        "Electronics And Communication Engineering": 180,
+        "Computer Science And Engineering": 180,
+        "Mechanical Engineering": 120,
+        "Information Technology": 120,
+        "Bio Technology": 60,
+        "Artificial Intelligence And Data Science": 120,
+        "Bio Medical Engineering": 60,
+        "Architecture": 40
+    },
+    "4961": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 90,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Artificial Intelligence And Data Science": 30,
+        "Computer Science And Engineering (Cyber Security)": 30
+    },
+    "4962": {
+        "Artificial Intelligence And Data Science": 60,
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 60,
+        "Mechanical Engineering": 60
+    },
+    "4964": {
+        "Artificial Intelligence And Data Science": 60,
+        "Aeronautical Engineering": 60,
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 90,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 90,
+        "Mechanical Engineering": 60,
+        "Marine Engineering": 60,
+        "Mechanical And Automation Engineering": 60,
+        "Bio Medical Engineering": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30
+    },
+    "4965": {
+        "Artificial Intelligence And Data Science": 120,
+        "Bio Medical Engineering": 60,
+        "Bio Technology": 30,
+        "Civil Engineering": 30,
+        "Electronics And Communication Engineering": 180,
+        "Electrical And Electronics Engineering": 90,
+        "Mechanical Engineering": 60,
+        "Information Technology": 60,
+        "Computer Science And Engineering": 240
+    },
+    "4966": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 90,
+        "Civil Engineering": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60
+    },
+    "4967": {
+        "Artificial Intelligence And Data Science": 30,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Computer Science And Engineering (Cyber Security)": 30,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Information Technology": 60
+    },
+    "4968": {
+        "Artificial Intelligence And Data Science": 60,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "4969": {
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Engineering": 180,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 60,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "4970": {
+        "Computer Science And Engineering": 120,
+        "Civil Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "4971": {
+        "Civil Engineering": 30,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 60,
+        "Mechanical Engineering": 120,
+        "Computer Science And Engineering": 180,
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "4974": {
+        "Mechanical Engineering": 120,
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 120,
+        "Electronics And Instrumentation Engineering": 60,
+        "Industrial Bio Technology": 60
+    },
+    "4975": {
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 40,
+        "Civil Engineering": 30,
+        "Mechanical Engineering": 30
+    },
+    "4976": {
+        "Aeronautical Engineering": 30,
+        "Agricultural Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Artificial Intelligence And Data Science": 30
+    },
+    "4977": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 27,
+        "Mechanical Engineering": 60
+    },
+    "4978": {
+        "Aeronautical Engineering": 30,
+        "Bio Medical Engineering": 120,
+        "Bio Technology": 60,
+        "Computer Science And Engineering": 60,
+        "Civil Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 30,
+        "Mechanical Engineering": 90,
+        "Agricultural Engineering": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Robotics And Automation": 30,
+        "Computer Science And Engineering (Cyber Security)": 60
+    },
+    "4979": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Information Technology": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Artificial Intelligence And Data Science (Ss)": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Cyber Security": 30
+    },
+    "4980": {
+        "Computer Science And Engineering": 120,
+        "Civil Engineering": 30,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "4981": {
+        "Computer Science And Engineering": 180,
+        "Civil Engineering": 30,
+        "Mechanical Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Information Technology": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Artificial Intelligence And Data Science": 180
+    },
+    "4982": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Civil Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Computer Science And Engineering (Cyber Security)": 30,
+        "Information Technology": 30,
+        "Bio Medical Engineering": 60
+    },
+    "4983": {
+        "Aeronautical Engineering": 30,
+        "Agricultural Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Civil Engineering": 60,
+        "Electronics And Communication Engineering": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 60,
+        "Robotics And Automation": 30
+    },
+    "4984": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 90,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "4989": {
+        "Artificial Intelligence And Data Science": 60,
+        "Agricultural Engineering": 60,
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Information Technology": 60,
+        "Mechanical Engineering": 60,
+        "Automobile Engineering": 30,
+        "Bio Medical Engineering": 30
+    },
+    "4992": {
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Civil Engineering": 0,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Information Technology": 60,
+        "Mechanical Engineering": 60,
+        "Bio Medical Engineering": 60
+    },
+    "4993": {
+        "Bio Medical Engineering": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 60,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 120
+    },
+    "4994": {
+        "Civil Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 60,
+        "Computer Science And Engineering": 120,
+        "Artificial Intelligence And Data Science": 120
+    },
+    "4995": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30
+    },
+    "4996": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Bussiness System": 30
+    },
+    "4998": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 30,
+        "Electronics And Communication Engineering": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 45
+    },
+    "4999": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Bio Medical Engineering": 60
+    },
+    "5008": {
+        "Civil Engineering": 40,
+        "Civil Engineering (Ss)": 80,
+        "Mechanical Engineering": 50,
+        "Mechanical Engineering (Ss)": 70,
+        "Electrical And Electronics Engineering": 50,
+        "Electrical And Electronics Engineering (Ss)": 70,
+        "Electronics And Communication Engineering": 50,
+        "Electronics And Communication Engineering (Ss)": 130,
+        "Computer Science And Engineering": 50,
+        "Computer Science And Engineering (Ss)": 130,
+        "Information Technology (Ss)": 240,
+        "Mechatronics (Ss)": 60,
+        "Computer Science And Business System (Ss)": 120,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning) (Ss)": 60,
+        "Interior Design(Ss)": 30
+    },
+    "5009": {
+        "Civil Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Computer Science And Engineering (Data Science)": 60
+    },
+    "5010": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Electronics Engineering (Vlsi Design And Technology)": 30
+    },
+    "5012": {
+        "Chemical And Electro Chemical Engineering (Ss)": 40
+    },
+    "5017": {
+        "Civil Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Civil Engineering (Tamil Medium)": 30,
+        "Mechanical Engineering (Tamil Medium)": 30,
+        "Electrical And Computer Enginnering": 30
+    },
+    "5022": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Civil Engineering (Tamil Medium)": 30,
+        "Mechanical Engineering (Tamil Medium)": 30,
+        "Information Technology": 60
+    },
+    "5502": {
+        "Civil Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Agricultural Engineering": 30,
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 120
+    },
+    "5530": {
+        "Artificial Intelligence And Data Science": 60,
+        "Civil Engineering": 30,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 60,
+        "Computer Science And Bussiness System": 60,
+        "Computer Science And Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60
+    },
+    "5532": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60
+    },
+    "5533": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 60,
+        "Artificial Intelligence And Data Science": 30,
+        "Agricultural Engineering": 30,
+        "Fashion Technology": 30
+    },
+    "5536": {
+        "Agricultural Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electronics Engineering (Vlsi Design And Technology)": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Information Technology": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30
+    },
+    "5537": {
+        "Artificial Intelligence And Data Science": 30,
+        "Bio Medical Engineering": 30,
+        "Civil Engineering": 45,
+        "Computer Science And Engineering": 23,
+        "Electronics And Communication Engineering": 23,
+        "Electrical And Electronics Engineering": 23,
+        "Mechanical Engineering": 45
+    },
+    "5544": {},
+    "5703": {
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Information Technology": 60,
+        "Civil Engineering": 30,
+        "Artificial Intelligence And Data Science": 60,
+        "Agricultural Engineering": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Mechanical Engineering": 30,
+        "Electrical And Electronics Engineering": 30
+    },
+    "5832": {
+        "Artificial Intelligence And Data Science": 120,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Information Technology": 60,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Electronics And Communication Engineering": 120
+    },
+    "5842": {
+        "Civil Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 30,
+        "Computer Science And Engineering": 180,
+        "Information Technology": 120,
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60
+    },
+    "5851": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Artificial Intelligence And Data Science": 30,
+        "Information Technology": 30,
+        "Computer Science And Engineering (Cyber Security)": 30
+    },
+    "5862": {
+        "Aeronautical Engineering": 30,
+        "Agricultural Engineering": 60,
+        "Automobile Engineering": 30,
+        "Bio Medical Engineering": 60,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Computer Science And Bussiness System": 30,
+        "Computer Science And Engineering (Cyber Security)": 30
+    },
+    "5863": {
+        "Architecture": 10
+    },
+    "5865": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 60,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "5901": {
+        "Civil Engineering": 60,
+        "Mechanical Engineering": 120,
+        "Electrical And Electronics Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Information Technology": 60
+    },
+    "5902": {
+        "Artificial Intelligence And Data Science": 60,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Information Technology": 60,
+        "Mechanical Engineering": 60,
+        "Agricultural Engineering": 30,
+        "Electrical And Electronics Engineering": 30
+    },
+    "5904": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 120,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 90,
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Computer Science And Engineering (Internet Of Things)": 60
+    },
+    "5907": {
+        "Artificial Intelligence And Data Science": 60,
+        "Agricultural Engineering": 30,
+        "Computer Science And Engineering": 90,
+        "Chemical Engineering": 45,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 90,
+        "Mechanical Engineering": 60,
+        "Marine Engineering": 30,
+        "Computer Science And Bussiness System": 60,
+        "Architecture": 40,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Computer Science And Engineering (Cyber Security)": 30,
+        "Aeronautical Engineering": 30,
+        "Civil Engineering": 30
+    },
+    "5910": {
+        "Artificial Intelligence And Data Science": 120,
+        "Bio Medical Engineering": 60,
+        "Civil Engineering": 60,
+        "Computer Science And Bussiness System": 60,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Electronics And Communication Engineering": 300,
+        "Electrical And Electronics Engineering": 120,
+        "Information Technology": 240,
+        "Mechanical Engineering": 120,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Electronics Engineering (Vlsi Design And Technology)": 60,
+        "Computer Science And Engineering": 360
+    },
+    "5911": {
+        "Artificial Intelligence And Data Science": 30,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 30,
+        "Electronics And Communication Engineering": 30,
+        "Electrical And Electronics Engineering": 15,
+        "Mechanical Engineering": 30,
+        "Bio Medical Engineering": 30,
+        "Computer Science And Engineering (Cyber Security)": 30,
+        "Computer Science And Bussiness System": 30
+    },
+    "5912": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 90,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Artificial Intelligence And Data Science": 60,
+        "Information Technology": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 30,
+        "Computer Science And Engineering (Cyber Security)": 30
+    },
+    "5913": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 90,
+        "Mechanical Engineering": 30,
+        "Textile Technology": 30,
+        "Artificial Intelligence And Data Science": 120,
+        "Chemical Engineering": 30,
+        "Information Technology": 120
+    },
+    "5914": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Bussiness System": 60,
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Artificial Intelligence And Machine Learning": 60,
+        "Electronics Engineering(Vlsi Design And Technology)(Ss)": 60
+    },
+    "5915": {
+        "Civil Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Artificial Intelligence And Data Science": 30,
+        "Information Technology": 30
+    },
+    "5919": {
+        "Bio Technology": 60,
+        "Chemical Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Bio Medical Engineering": 30
+    },
+    "5921": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Bussiness System": 30,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Civil Engineering": 30,
+        "Bio Medical Engineering": 30,
+        "Information Technology": 30
+    },
+    "5924": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 30,
+        "Electronics And Communication Engineering": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Information Technology": 23,
+        "Artificial Intelligence And Data Science": 30
+    },
+    "5930": {
+        "Civil Engineering": 90,
+        "Computer Science And Engineering": 90,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 90,
+        "Mechanical Engineering": 90,
+        "Artificial Intelligence And Data Science": 30,
+        "Information Technology": 30,
+        "Bio Medical Engineering": 30
+    },
+    "5935": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Computer Science And Engineering (Cyber Security)": 30,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60
+    },
+    "5942": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electrical And Electronics Engineering": 30,
+        "Information Technology": 60,
+        "Mechanical Engineering": 30,
+        "Artificial Intelligence And Data Science": 60
+    },
+    "5986": {
+        "Artificial Intelligence And Data Science": 120,
+        "Computer Science And Engineering": 240,
+        "Electrical And Electronics Engineering": 60,
+        "Information Technology": 180,
+        "Mechanical Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Electronics Engineering (Vlsi Design And Technology)": 60,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Civil Engineering": 60
+    },
+    "5988": {
+        "Civil Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Electrical And Electronics Engineering": 60,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Information Technology": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60
+    },
+    "5990": {
+        "Civil Engineering": 30,
+        "Computer Science And Engineering": 90,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 60,
+        "Electronics And Communication Engineering": 45,
+        "Artificial Intelligence And Data Science": 30
+    },
+    "2379": {
+        "Architecture": 40
+    },
+    "1102": {
+        "Computer Science And Engineering": 30,
+        "Civil Engineering": 30,
+        "Electronics And Communication Engineering": 30,
+        "Electrical And Electronics Engineering": 30,
+        "Mechanical Engineering": 30,
+        "Information Technology": 30,
+        "Artificial Intelligence And Data Science": 30
+    },
+    "4986": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Engineering": 60,
+        "Information Technology": 60,
+        "Electronics And Communication Engineering": 60,
+        "Mechanical Engineering": 60,
+        "Electrical And Electronics Engineering": 30
+    },
+    "2378": {
+        "Electronics And Communication Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Artificial Intelligence And Data Science": 60,
+        "Artificial Intelligence And Machine Learning": 60
+    },
+    "1203": {
+        "Artificial Intelligence And Data Science": 60,
+        "Computer Science And Bussiness System": 60,
+        "Computer Science And Engineering": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Computer Science And Engineering (Cyber Security)": 60,
+        "Information Technology": 60
+    },
+    "5545": {
+        "Artificial Intelligence And Data Science": 60,
+        "Artificial Intelligence And Machine Learning": 60,
+        "Computer Science And Engineering": 120,
+        "Electronics And Communication Engineering": 60,
+        "Information Technology": 60
+    },
+    "5546": {
+        "Mechanical Engineering": 60,
+        "Computer Science And Engineering": 60,
+        "Computer Science And Engineering (Data Science)": 60,
+        "Computer Science And Engineering (Artificial Intelligence And Machine Learning)": 60,
+        "Electronics And Communication Engineering": 60
+    }
+}
