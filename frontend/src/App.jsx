@@ -457,7 +457,7 @@ useEffect(() => {
         district: district || null,
       }
 
-      const res = await fetch('${API_URL}/api/predict', {
+      const res = await fetch(`${API_URL}/api/predict`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
@@ -1234,7 +1234,7 @@ useEffect(() => {
     async function fetchMeta() {
       try {
         setMetaLoading(true)
-        const res = await fetch('${API_URL}/api/metadata')
+        const res = await fetch(`${API_URL}/api/metadata`)
         if (!res.ok) throw new Error(`Failed: ${res.statusText}`)
         const data = await res.json()
         if (data.districts) setDistricts(data.districts)
