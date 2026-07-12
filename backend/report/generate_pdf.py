@@ -431,7 +431,7 @@ def generate_pdf(student, recommendations, output_file="report.pdf"):
         BASE_DIR,
         "..",
         "assets",
-        "FOUNDER Logo (1).png",
+        "Founder Logo (1).png",
         
     )
 
