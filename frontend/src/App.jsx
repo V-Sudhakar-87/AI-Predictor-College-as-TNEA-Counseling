@@ -1398,7 +1398,7 @@ if (downloading) return;
 };
 
      const response = await fetch(
-            "${API_URL}/api/download-pdf",
+            `${API_URL}/api/download-pdf`,
             {
                 method: "POST",
                 headers: {
