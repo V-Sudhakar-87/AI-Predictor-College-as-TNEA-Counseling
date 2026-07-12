@@ -3447,7 +3447,14 @@ opacity:1;
 .footer-brand p{
   font-size: 12px;
 }
-
+.footer-team::before,.footer-team::after{
+  display: none;
+}
+.footer-team
+{
+   width: 150%;
+   margin-left: -70px;
+}
 .member-card{
 
     min-width:145px;

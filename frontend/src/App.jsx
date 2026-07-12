@@ -1708,7 +1708,7 @@ Object.entries(hostelData.hostel).map(([key,value])=>(
           
           <h4>
             <a
-            href="https://linkedin.com/in/member2"
+            href="https://www.linkedin.com/in/marieswari-sankar"
             target="_blank"
             rel="noopener noreferrer"
             className="linkedin-link"
@@ -1735,7 +1735,7 @@ Object.entries(hostelData.hostel).map(([key,value])=>(
           <img src="/team/mathubala.jpeg" alt="Member"  />
           
           <h4><a
-            href="https://linkedin.com/in/member2"
+            href="https://www.linkedin.com/in/mathubalas6"
             target="_blank"
             rel="noopener noreferrer"
             className="linkedin-link"
@@ -1790,7 +1790,7 @@ Object.entries(hostelData.hostel).map(([key,value])=>(
           
           <h4>
             <a
-            href="https://linkedin.com/in/member2"
+            href="https://www.linkedin.com/in/marieswari-sankar"
             target="_blank"
             rel="noopener noreferrer"
             className="linkedin-link"
@@ -1817,7 +1817,7 @@ Object.entries(hostelData.hostel).map(([key,value])=>(
           <img src="/team/mathubala.jpeg" alt="Member"  />
           
           <h4><a
-            href="https://linkedin.com/in/member2"
+            href="https://www.linkedin.com/in/mathubalas6"
             target="_blank"
             rel="noopener noreferrer"
             className="linkedin-link"
