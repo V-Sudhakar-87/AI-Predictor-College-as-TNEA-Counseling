@@ -3,17 +3,14 @@ import heroRobot from './assets/robo.png'
 import collegeLogo from './assets/COLLEGE LOGO (1).png'
 import { getSeats, SEATS_BY_COLLEGE } from './data/seats.js'
 import { useRef } from "react";
-import {
-  Cpu,
-  Bot,
-  Globe,
-  Radio,
-  Zap,
-  Cog,
-  Building2,
-  FlaskConical
-} from "lucide-react";
 
+
+
+const API_URL =
+  window.location.hostname === "localhost" ||
+  window.location.hostname === "127.0.0.1"
+    ? "http://127.0.0.1:8000"
+    : "https://ai-predictor-college-as-tnea-counseling.onrender.com";
 // ── Branch data with icons ──────────────────────────────────────────────────
 const ALL_BRANCHES = [
   { name: 'Computer Science & Engineering (CSE)', icon: <i className="fa-solid fa-computer"></i> },
@@ -460,7 +457,7 @@ useEffect(() => {
         district: district || null,
       }
 
-      const res = await fetch('/api/predict', {
+      const res = await fetch('${API_URL}/api/predict', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
@@ -1237,7 +1234,7 @@ useEffect(() => {
     async function fetchMeta() {
       try {
         setMetaLoading(true)
-        const res = await fetch('/api/metadata')
+        const res = await fetch('${API_URL}/api/metadata')
         if (!res.ok) throw new Error(`Failed: ${res.statusText}`)
         const data = await res.json()
         if (data.districts) setDistricts(data.districts)
@@ -1330,7 +1327,7 @@ async function openHostel(collegeCode) {
 
 
 
-    const res = await fetch(`http://127.0.0.1:8000/api/college-details/${collegeCode}`);
+    const res = await fetch(`${API_URL}/api/college-details/${collegeCode}`);
 
     const data = await res.json();
 
@@ -1347,7 +1344,7 @@ const openWebsite = async (collegeCode) => {
 
     try {
 
-        const res = await fetch(`http://127.0.0.1:8000/api/college-details/${collegeCode}`);
+        const res = await fetch(`${API_URL}/api/college-details/${collegeCode}`);
 
         const data = await res.json();
        
@@ -1401,7 +1398,7 @@ if (downloading) return;
 };
 
      const response = await fetch(
-            "http://127.0.0.1:8000/api/download-pdf",
+            "${API_URL}/api/download-pdf",
             {
                 method: "POST",
                 headers: {
