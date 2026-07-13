@@ -22,3 +22,22 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# React
+frontend/node_modules
+frontend/dist
+
+# Python
+backend/__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+*.env
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
