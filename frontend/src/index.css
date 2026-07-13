@@ -2551,9 +2551,7 @@ background:#d4af37;
 border-radius:20px;
 
 }
-.college-card {
-  width: fit-content;
-}
+
 @media (max-width:768px){
 
 /* Dashboard */
@@ -2585,7 +2583,9 @@ border-radius:20px;
     font-size:1.55rem;
     margin-bottom:6px;
 }
-
+.college-card {
+  width: fit-content;
+}
 .dashboard-left p{
 
     font-size:.88rem;
