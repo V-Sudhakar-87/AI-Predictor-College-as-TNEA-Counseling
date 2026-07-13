@@ -314,6 +314,10 @@ function PredictorForm({ onResults, onLoading, isLoading, communities, districts
   // Branches
   const [branchSearch, setBranchSearch] = useState('')
   const [selectedBranches, setSelectedBranches] = useState([])
+  const [selectedColleges,setSelectedColleges]=useState([]);
+  const [availableColleges,setAvailableColleges]=useState([]);
+  const [collegeSearch,setCollegeSearch]=useState("");
+  
 
   // Validation
   const [validationError, setValidationError] = useState('')
@@ -392,6 +396,101 @@ useEffect(() => {
       };
 
   }, []);
+const filteredColleges = useMemo(() => {
+
+    const search = collegeSearch.trim().toLowerCase();
+
+    let list = availableColleges.filter(col =>
+        !search ||
+        col.name.toLowerCase().includes(search) ||
+        String(col.code).includes(search)
+    );
+
+    list.sort((a, b) => {
+
+    if (search) {
+
+        const aStarts =
+            a.name.toLowerCase().startsWith(search) ||
+            a.code.toString().startsWith(search);
+
+        const bStarts =
+            b.name.toLowerCase().startsWith(search) ||
+            b.code.toString().startsWith(search);
+
+        if (aStarts && !bStarts) return -1;
+        if (!aStarts && bStarts) return 1;
+
+        const aContains =
+            a.name.toLowerCase().includes(search) ||
+            a.code.toString().includes(search);
+
+        const bContains =
+            b.name.toLowerCase().includes(search) ||
+            b.code.toString().includes(search);
+
+        if (aContains && !bContains) return -1;
+        if (!aContains && bContains) return 1;
+    }
+
+    const aSelected = selectedColleges.includes(a.code.toString());
+    const bSelected = selectedColleges.includes(b.code.toString());
+
+    if (aSelected && !bSelected) return -1;
+    if (!aSelected && bSelected) return 1;
+
+    return a.name.localeCompare(b.name);
+
+});
+
+    return list;
+
+},[
+availableColleges,
+collegeSearch,
+selectedColleges
+]);
+
+useEffect(() => {
+    let ignore = false; // 👈 add this flag
+
+    async function loadColleges() {
+        const url = district
+            ? `${API_URL}/api/colleges?district=${encodeURIComponent(district)}`
+            : `${API_URL}/api/colleges`;
+
+        const res = await fetch(url);
+        const data = await res.json();
+
+        if (ignore) return; // 👈 stale response na, state update pannadhe
+
+        const unique = Array.from(
+            new Map(data.map(item => [item.code, item])).values()
+        );
+
+        setAvailableColleges(unique);
+    }
+
+    loadColleges();
+
+    return () => {
+        ignore = true; // 👈 next run start aana, previous-a cancel/ignore pannidum
+    };
+}, [district]);
+
+function toggleCollege(code){
+    code = String(code);
+    setSelectedColleges(prev=>
+
+        prev.includes(code)
+
+        ? prev.filter(x=>x!==code)
+
+        : [...prev,code]
+
+    );
+
+}
 
   function toggleBranch(name) {
     setSelectedBranches(prev =>
@@ -422,6 +521,11 @@ useEffect(() => {
 
     setSelectedBranches(savedFormData.selectedBranches || []);
 
+
+    setSelectedColleges(
+        savedFormData.selectedColleges || []
+    );
+
 }, [savedFormData]);
 
 
@@ -447,14 +551,13 @@ useEffect(() => {
       return
     }
 
-    onLoading(true)
-
     try {
       const payload = {
         rank: rank,
         cutoff_mark: cutoffMark,
         community: community,
         district: district || null,
+        preferred_colleges: selectedColleges
       }
 
       const res = await fetch(`${API_URL}/api/predict`, {
@@ -488,7 +591,8 @@ useEffect(() => {
 
     chemistry,
 
-    selectedBranches
+    selectedBranches,
+    selectedColleges
 
 });
 
@@ -501,7 +605,8 @@ const formValues = {
     maths,
     physics,
     chemistry,
-    selectedBranches
+    selectedBranches,
+    selectedColleges
 };
 
 setSavedFormData(formValues);
@@ -531,7 +636,9 @@ sessionStorage.setItem(
           .map(rec => ({
             ...rec,
             branches: rec.branches.filter(backendBranch => {
-              const bl = backendBranch.toLowerCase().replace(/&/g, 'and')
+              const bl = backendBranch.branch
+  .toLowerCase()
+  .replace(/&/g, "and");
               // A branch matches a chip if ALL significant words of the chip appear in the branch string
               return chipKeywords.some(keywords =>
                 keywords.every(kw => bl.includes(kw))
@@ -596,18 +703,25 @@ Personal Information
 Academic Details
 
 </div>
-
 <div className={`step ${activeStep===3 ? "active":""}`}>
 
 <span>03</span>
 
-Preferred Branches
+Preferred Colleges
 
 </div>
 
 <div className={`step ${activeStep===4 ? "active":""}`}>
 
 <span>04</span>
+
+Preferred Branches
+
+</div>
+
+<div className={`step ${activeStep===5 ? "active":""}`}>
+
+<span>05</span>
 
 Generate Report
 
@@ -706,7 +820,10 @@ Cancel
                     id="district-select"
                     className="field-input"
                     value={district}
-                    onChange={e => setDistrict(e.target.value)}
+                    onChange={(e) => {
+                      console.log("Selected:", e.target.value);
+    setDistrict(e.target.value);
+  }}
                   >
                     <option value="">All Districts</option>
                     {districts.map(d => (
@@ -895,8 +1012,109 @@ Cancel
 )}
         </fieldset>
 )}
+{/* 3. Preferred Colleges */}
+{(!isMobile || mobileStep === 3) && (
+<fieldset className="form-block college" >
+
+    <div className="form-block-header">
+        <div className="form-block-num">3</div>
+
+        <legend>
+            <h2>
+                Preferred Colleges
+                <span className="form-block-sub">
+                    (Optional)
+                </span>
+            </h2>
+        </legend>
+
+    </div>
+
+    <div className="branch-search-wrap">
+
+        <span className="branch-search-icon">
+            <i className="fa-solid fa-school"></i>
+        </span>
+
+        <input
+            type="text"
+            className="branch-search-input"
+            placeholder="Search college..."
+            value={collegeSearch}
+            onChange={(e)=>setCollegeSearch(e.target.value)}
+        />
+
+    </div>
+
+    <div className="college-grid">
+
+        {filteredColleges.map(college=>{
+
+            const selected =
+            selectedColleges.includes(String(college.code));
+
+            return(
+
+                <button
+                key={`${college.code}-${college.name}`}
+                type="button"
+                className={`college-chip ${selected ? "selected" : ""}`}
+                onClick={()=>toggleCollege(college.code)}
+                >
+
+                    <div className="college-left">
+
+                        <i className="fa-solid fa-building-columns"></i>
+
+                        <div>
+
+                            <strong>{college.name}</strong>
+
+                            <span>{college.code}</span>
+
+                        </div>
+
+                    </div>
+
+                    <div className="college-check">
+
+                        {selected &&
+                        <i className="fa-solid fa-check"></i>}
+
+                    </div>
+
+                </button>
+
+            )
+
+        })}
+
+    </div>
+{isMobile && (
+  <div className="mobile-nav">
+
+    <button
+      type="button"
+      className="btn-next"
+      onClick={() => setMobileStep(2)}
+    >
+      ← Back
+    </button>
+
+    <button
+      type="button"
+      className="btn-next"
+      onClick={() => setMobileStep(4)}
+    style={{marginLeft:'50px'}}>
+      Next →
+    </button>
+
+  </div>
+)}
+</fieldset>
+)}
         {/* 3. Preferred Branches */}
-        {(!isMobile || mobileStep === 3) && (
+        {(!isMobile || mobileStep === 4) && (
         <fieldset className="form-block" ref={branchRef}>
           <div className="form-block-header">
             <div className="form-block-num" aria-hidden="true">3</div>
@@ -944,15 +1162,16 @@ Cancel
     <button
       type="button"
       className="btn-next"
-      onClick={() => setMobileStep(2)}
+      onClick={() => setMobileStep(3)}
      style={{marginLeft:'50px'}} >
       ← Back
     </button>
+
   </div>
         </fieldset>
 )}
         {/* Submit */}
-        {(!isMobile || mobileStep === 3) && (
+        {(!isMobile || mobileStep === 4) && (
         <div className="form-submit-wrap" ref={submitRef}>
           <button
             type="submit"
@@ -1122,7 +1341,10 @@ function ResultsSection({ recommendations, error, hasSearched, isLoading, onRetr
           </div>
         ) : (
           <div className="results-grid">
-            {[...filtered].reverse().map((rec) => {
+            {[
+  ...filtered.filter(r => r.is_preferred),
+  ...filtered.filter(r => !r.is_preferred).reverse()
+].map((rec) => {
               const isExpanded = expandedColleges[rec.college] || false
               const displayedBranches = isExpanded ? rec.branches : rec.branches.slice(0, 4)
               const hasMore = rec.branches.length > 4
@@ -1139,6 +1361,31 @@ function ResultsSection({ recommendations, error, hasSearched, isLoading, onRetr
                       CODE: {rec.code}
                     </span>
                   </div>
+                  
+                  <div className="college-summary">
+                      <span className={`overall-badge ${rec.overall_probability >= 80
+                       ? "overall-high"
+                       : rec.overall_probability >= 50
+                       ? "overall-medium"
+                       : "overall-low"}`}>
+                       Overall Admission Chance
+                        <strong>{rec.overall_probability}%</strong>
+                      </span>
+                  </div>
+                  {rec.is_preferred && (
+  <div className="preferred-reason-card">
+
+    <div className="preferred-title">
+      ⭐ Your Preferred College
+    </div>
+
+    <div className="preferred-reason">
+      {rec.reason}
+    </div>
+
+  </div>
+)}
+
                 <div className="footer-top">
                   <div className="college-card-district" aria-label={`District: ${rec.district}`}>
                     <i className="fa-solid fa-location-dot"></i> {rec.district}
@@ -1155,12 +1402,31 @@ function ResultsSection({ recommendations, error, hasSearched, isLoading, onRetr
                       Feasible Branches ({rec.branches.length})
                     </p>
                     <div className="branches-list" role="list">
-                      {displayedBranches.map((branch, idx) => {
-                        const seats = getSeats(rec.code, branch)
+                      {displayedBranches.map((item, idx) => {
+                        
+                        const branchName =typeof item === "string" ? item : item.branch;
+                        const probability =typeof item === "string" ? null: item.probability;
+                        const chanceClass =probability >= 80
+                            ? "chance-high"
+                            : probability >= 50
+                            ? "chance-medium"
+                            : "chance-low";
+                        const chanceIcon = probability >= 80
+                            ? "🟢"
+                            : probability >= 50
+                            ? "🟡"
+                            : "🔴";
+                        const seats = getSeats(rec.code, branchName)
                         const isConfirmed = !!SEATS_BY_COLLEGE[String(rec.code)]
                         return (
                           <div key={idx} className="branch-item" role="listitem">
-                            <span className="branch-item-name">{branch}</span>
+                            <span className="branch-item-name">
+    {branchName}
+</span>
+
+<span className={`chance-badge ${chanceClass}`}>
+   {chanceIcon}  {probability ?? "--"}%
+</span>
                             <span
                               className={`branch-seat-badge${isConfirmed ? ' confirmed' : ' estimated'}`}
                               title={isConfirmed
@@ -1577,6 +1843,7 @@ if (downloading) return;
             setHasSearched(false)
             setError(null)
             setDebugInfo(null)
+            setShowPredictor(true)
           }}
         />
         {showHostel && hostelData && (
@@ -1676,7 +1943,7 @@ Object.entries(hostelData.hostel).map(([key,value])=>(
       <div className="team-grid">
 
         <div className="member-card">
-          <img src="/team/Sudhakar.jpeg" alt="Suthakar" style={{objectPosition:'left 40%'}} />
+          <img src="/team/sk.jpeg" alt="Suthakar" style={{objectPosition:'left 10%'}} />
           
           <h4>
             <a
@@ -1758,7 +2025,7 @@ Object.entries(hostelData.hostel).map(([key,value])=>(
         </div>
 
           <div className="member-card">
-          <img src="/team/Sudhakar.jpeg" alt="Suthakar" style={{objectPosition:'left 40%'}} />
+          <img src="/team/sk.jpeg" alt="Suthakar" style={{objectPosition:'left 10%'}} />
           
           <h4>
             <a

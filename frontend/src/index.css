@@ -2791,7 +2791,7 @@ border-radius:20px;
 
     }
     .hostel-badge{
-    margin-left: 5px;
+    margin-left: 1px;
    }
    .website-btn{
     width: 40%;
@@ -3456,7 +3456,7 @@ opacity:1;
 .footer-team
 {
    width: 150%;
-   margin-left: -70px;
+   margin-left: -60px;
 }
 .member-card{
 
@@ -3497,6 +3497,7 @@ opacity:1;
 
 }
 
+
 }
 
 
@@ -3504,4 +3505,396 @@ opacity:1;
     margin-top:8px;
     font-size:12px;
     color:#9ca3af;
+}
+
+.branch-left{
+    flex:1;
+}
+
+.branch-right{
+    display:flex;
+    gap:10px;
+    align-items:center;
+}
+
+.chance-badge{
+
+    background:#10b981;
+
+    color:white;
+
+    font-weight:700;
+
+    padding:6px 12px;
+
+    border-radius:20px;
+
+    font-size:13px;
+
+}
+
+.chance-bar{
+
+    width:180px;
+
+    height:6px;
+
+    background:#e5e7eb;
+
+    border-radius:999px;
+
+    margin-top:6px;
+
+}
+
+.chance-fill{
+
+    height:100%;
+
+    background:linear-gradient(90deg,#22c55e,#16a34a);
+
+    border-radius:999px;
+
+}
+/* Common Badge */
+
+.chance-badge{
+    min-width:70px;
+    text-align:center;
+    color:#fff;
+    font-weight:700;
+    font-size:11px;
+    padding:5px 14px;
+    border-radius:999px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:6px;
+    transition:.3s;
+    box-shadow:0 6px 15px rgba(0,0,0,.12);
+}
+
+/* 80%+ */
+
+.chance-high{
+    background:linear-gradient(135deg,#22c55e,#16a34a);
+    box-shadow:0 0 15px rgba(34,197,94,.35);
+    padding: 0px;
+}
+
+/* 50 - 79 */
+
+.chance-medium{
+    background:linear-gradient(135deg,#facc15,#eab308);
+    color:#1f2937;
+    box-shadow:0 0 15px rgba(250,204,21,.4);
+}
+
+/* Below 50 */
+
+.chance-low{
+    background:linear-gradient(135deg,#ef4444,#b91c1c);
+    box-shadow:0 0 15px rgba(239,68,68,.35);
+}
+.college-summary{
+    display:flex;
+    justify-content:flex-start;
+    margin-bottom:14px;
+}
+
+.overall-badge{
+
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+
+    padding:7px 14px;
+
+    border-radius:999px;
+
+    font-size:13px;
+    font-weight:700;
+
+    transition:.3s;
+
+    border:1px solid transparent;
+
+    white-space:nowrap;
+}
+
+.overall-badge strong{
+    font-size:14px;
+    font-weight:800;
+}
+
+/* High */
+
+.overall-high{
+
+    background:#ECFDF5;
+    color:#059669;
+    border-color:#A7F3D0;
+}
+
+/* Medium */
+
+.overall-medium{
+
+    background:#FEF3C7;
+    color:#D97706;
+    border-color:#FCD34D;
+}
+
+/* Low */
+
+.overall-low{
+
+    background:#FEF2F2;
+    color:#DC2626;
+    border-color:#FECACA;
+}
+
+.overall-badge:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:0 8px 18px rgba(0,0,0,.08);
+
+}
+@media(max-width:768px){
+
+    .college-summary{
+
+        margin:0px 0 10px;
+    }
+
+    .overall-badge{
+
+        width:100%;
+
+        justify-content:space-between;
+
+        font-size:12px;
+
+        padding:5px 7px;
+    }
+
+    .overall-badge strong{
+
+        font-size:12px;
+    }
+
+}
+/* ===== MOBILE ===== */
+
+@media (max-width:768px){
+
+    .branch-item{
+        display:grid !important;
+        grid-template-columns:1fr auto;
+        grid-template-areas:
+            "name chance"
+            "name seat";
+        align-items:center;
+        row-gap:6px;
+        column-gap:10px;
+    }
+
+    .branch-item-name{
+        grid-area:name;
+        align-self:center;
+    }
+
+    .chance-badge{
+        grid-area:chance;
+        justify-self:end;
+    }
+
+    .branch-seat-badge{
+        grid-area:seat;
+        justify-self:end;
+    }
+    
+
+}
+
+.college-grid{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:14px;
+
+max-height:320px;
+
+overflow-y:auto;
+
+padding-right:4px;
+
+margin-top:20px;
+
+}
+
+.college-chip{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:16px;
+
+border:2px solid #e5e7eb;
+
+border-radius:14px;
+
+background:white;
+
+cursor:pointer;
+
+transition:.25s;
+
+text-align:left;
+
+}
+
+.college-chip:hover{
+
+border-color:#2563eb;
+
+transform:translateY(-2px);
+
+box-shadow:0 8px 20px rgba(37,99,235,.15);
+
+}
+
+.college-chip.selected{
+
+background:#eff6ff;
+
+border-color:#2563eb;
+
+}
+
+.college-left{
+
+display:flex;
+
+gap:14px;
+
+align-items:center;
+
+}
+
+.college-left i{
+
+font-size:22px;
+
+color:#2563eb;
+
+}
+
+.college-left strong{
+
+display:block;
+
+font-size:14px;
+
+font-weight:700;
+
+color:#111827;
+
+}
+
+.college-left span{
+
+display:block;
+
+font-size:12px;
+
+color:#6b7280;
+
+margin-top:4px;
+
+}
+
+.college-check{
+
+width:30px;
+
+height:30px;
+
+border-radius:50%;
+
+background:rgb(100, 142, 233);
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+color:white;
+
+font-size:14px;
+
+flex-shrink:0;
+
+}
+.college-chip.selected{
+
+background:white;
+
+border:2px solid #2563eb;
+
+box-shadow:0 0 0 3px rgba(37,99,235,.12);
+
+}
+
+@media (max-width: 768px) {
+  .college-grid {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  
+  }
+
+  .college-chip {
+    padding: 8px 10px;       /* full padding-a konjam kurachiruken */
+    font-size: 0.78rem;
+    min-height: 90%;
+    max-width: 100%;
+  }
+
+  .college-chip .college-left {
+    gap: 8px;
+  }
+
+  .college-chip .college-left i {
+    font-size: 0.9rem;       /* building icon size */
+  }
+
+  .college-chip strong {
+    font-size: 0.75rem;
+    line-height: 1.2;
+    display: block;
+  }
+
+  .college-chip span {
+    font-size: 0.65rem;      /* college code size */
+  }
+
+  .college-check i {
+    font-size: 0.8rem;
+  }
+}
+.preferred-branch-warning {
+  margin-top: 10px;
+  padding: 10px 14px;
+  background: #fff3cd;
+  border: 1px solid #ffe08a;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: #7a5c00;
 }

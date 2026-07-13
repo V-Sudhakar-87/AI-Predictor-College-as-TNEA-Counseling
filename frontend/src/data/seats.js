@@ -4557,16 +4557,25 @@ export function getSeats(collegeCode, branchName) {
 
   if (!collegeSeats) return null;
 
+  // Safety check
+  if (!branchName) {
+    console.warn("Branch name is undefined:", {
+      collegeCode,
+      branchName,
+    });
+    return null;
+  }
+
   // Exact match
   if (collegeSeats[branchName] !== undefined) {
     return collegeSeats[branchName];
   }
 
   // Ignore case
-  const target = branchName.trim().toLowerCase();
+  const target = String(branchName).trim().toLowerCase();
 
   for (const [key, seat] of Object.entries(collegeSeats)) {
-    if (key.trim().toLowerCase() === target) {
+    if (String(key).trim().toLowerCase() === target) {
       return seat;
     }
   }
