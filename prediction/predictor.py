@@ -33,7 +33,7 @@ def load_predictor_bundle(bundle_path=None):
     return _bundle
 
 def predict(rank: int | None = None, cutoff_mark: float | None = None, community: str = 'OC',
-            district: str | None = None, bundle_path: str | None = None) -> list[dict]:
+            district: str | None = None, preferred_colleges=None, bundle_path: str | None = None) -> list[dict]:
     """
     Predicts and ranks the colleges and branches for a student.
     
@@ -47,6 +47,8 @@ def predict(rank: int | None = None, cutoff_mark: float | None = None, community
     - list[dict]: List of college dictionaries in the format:
       [{"college": "College Name", "branches": ["Branch A", "Branch B", ...]}, ...]
     """
+    if preferred_colleges is None:
+        preferred_colleges = []
     global _bundle
     if _bundle is None or bundle_path is not None:
         load_predictor_bundle(bundle_path)
@@ -101,8 +103,19 @@ def predict(rank: int | None = None, cutoff_mark: float | None = None, community
         filter_mask = candidates['CutoffMark_hist'].notna() & (cutoff_mark >= candidates['CutoffMark_hist'] - 5.0)
     else:
         filter_mask = pd.Series(True, index=candidates.index)
-        
-    candidates = candidates[filter_mask].copy()
+
+    preferred_df = candidates[
+    candidates["Code"].astype(str).isin(preferred_colleges)
+    ].copy()  
+    normal_df = candidates[filter_mask].copy()
+    normal_df = normal_df[
+    ~normal_df["Code"].astype(str).isin(preferred_colleges)
+    ]
+    #candidates = candidates[filter_mask].copy()
+    candidates = pd.concat(
+    [preferred_df, normal_df],
+    ignore_index=True)
+
     if len(candidates) == 0:
         return []
         
@@ -146,6 +159,22 @@ def predict(rank: int | None = None, cutoff_mark: float | None = None, community
         candidates['Score'] = (candidates['PredictedClosingRank'] - rank) / (candidates['PredictedClosingRank'] + 1)
     else:
         candidates['Score'] = (cutoff_mark - candidates['PredictedCutoffMark']) / 20.0
+
+    # -------------------------------------------------
+# Admission Probability (0 - 100%)
+# -------------------------------------------------
+
+    candidates["Probability"] = (
+    1 / (1 + np.exp(-5 * candidates["Score"]))
+    ) * 100
+
+# Clamp values
+    candidates["Probability"] = (
+    candidates["Probability"]
+        .clip(lower=5, upper=99)
+        .round()
+        .astype(int)
+    )
         
     # 6. Rank Colleges and Branches
     # Group by Code, sort colleges by their best branch score
@@ -165,11 +194,52 @@ def predict(rank: int | None = None, cutoff_mark: float | None = None, community
         col_df = candidates[candidates['Code'] == code]
         college_name = col_df.iloc[0]['College Name']
         district_name = col_df.iloc[0]['District']
-        branches = col_df['Branch'].tolist()
+        is_preferred = str(code) in preferred_colleges
+        #branches = col_df['Branch'].tolist()
+        branches = []
+
+        for _, row in col_df.iterrows():
+
+            branches.append({
+                "branch": row["Branch"],
+                "probability": int(row["Probability"])
+            })
+        probabilities = sorted(col_df["Probability"].tolist(),reverse=True
+            )
+
+        top3 = probabilities[:3]
+
+        overall_probability = round(sum(top3) / len(top3))
+        best_row = col_df.iloc[0]
+
+        reason = None
+
+        if is_preferred:
+
+            if cutoff_mark is not None:
+
+                diff = best_row["PredictedCutoffMark"] - cutoff_mark
+
+                if diff > 0:
+                    reason = f"Your cutoff is {diff:.1f} marks below the expected closing cutoff."
+                else:
+                    reason = f"Your cutoff is {abs(diff):.1f} marks above the expected closing cutoff."
+
+        elif rank is not None:
+
+            diff = rank - best_row["PredictedClosingRank"]
+
+            if diff > 0:
+                reason = f"Your rank is {int(diff)} positions behind the expected closing rank."
+            else:
+                reason = "Your rank is within the expected admission range."
         results.append({
             "code": code,
             "college": college_name,
             "district": district_name,
+            "overall_probability": overall_probability,
+            "is_preferred": is_preferred,
+            "reason": reason,
             "branches": branches
         })
         
