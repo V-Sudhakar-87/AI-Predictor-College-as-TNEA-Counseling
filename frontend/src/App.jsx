@@ -1749,7 +1749,7 @@ Object.entries(hostelData.hostel).map(([key,value])=>(
           
           <h4>
             <a
-            href="https://linkedin.com/in/member6"
+            href="https://www.linkedin.com/in/vengatesh-l-31312a288"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -1831,7 +1831,7 @@ Object.entries(hostelData.hostel).map(([key,value])=>(
           
           <h4>
             <a
-            href="https://linkedin.com/in/member6"
+            href="https://www.linkedin.com/in/vengatesh-l-31312a288"
             target="_blank"
             rel="noopener noreferrer"
           >
