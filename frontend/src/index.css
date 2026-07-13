@@ -2551,6 +2551,9 @@ background:#d4af37;
 border-radius:20px;
 
 }
+.college-card {
+  width: fit-content;
+}
 @media (max-width:768px){
 
 /* Dashboard */
