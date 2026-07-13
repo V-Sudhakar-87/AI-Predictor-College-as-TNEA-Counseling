@@ -374,9 +374,17 @@ def _build_recommendations_table(recommendations):
     data = [header_row]
 
     for rec in reversed(recommendations):
-        branches = rec.get("branches", []) or []
+        #branches = rec.get("branches", []) or []
         #branches = list(reversed(branches))  # <-- branches printed in reverse order
-        branches_text = "<br/>"+",".join(branches) if branches else "-"
+        #branches_text = "<br/>"+",".join(branches) if branches else "-"
+        branches = rec.get("branches", []) or []
+
+        branch_names = [
+        b["branch"] if isinstance(b, dict) else str(b)
+        for b in branches
+        ]
+
+        branches_text = "<br/>" + ", ".join(branch_names)
 
         data.append(
             [
