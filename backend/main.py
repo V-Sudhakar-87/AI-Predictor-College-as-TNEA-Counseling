@@ -17,7 +17,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 import os
 
-
+from typing import Optional
 # Ensure project root is in sys.path to import prediction, training, etc.
 current_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.dirname(current_dir)
@@ -64,11 +64,21 @@ class PredictionRequest(BaseModel):
     community: str = Field(default="OC", description="Student's community (OC, BC, BCM, MBC, SC, SCA, ST)")
     district: Optional[str] = Field(default=None, description="Optional district filter")
 
+    preferred_colleges: List[str] = []
+
+class BranchRecommendation(BaseModel):
+    branch: str
+    probability: int
+
 class CollegeBranchRecommendation(BaseModel):
     code: str
     college: str
     district: str
-    branches: List[str]
+    overall_probability: int 
+    is_preferred: bool = False
+
+    reason: Optional[str] = None
+    branches: List[BranchRecommendation]
 
 class PredictionResponse(BaseModel):
     recommendations: List[CollegeBranchRecommendation]
@@ -77,6 +87,11 @@ class PredictionResponse(BaseModel):
 class MetadataResponse(BaseModel):
     communities: List[str]
     districts: List[str]
+
+class CollegeOption(BaseModel):
+    code: str
+    name: str
+    district: str
 
 class PDFRequest(BaseModel):
     student: dict
@@ -110,6 +125,47 @@ def get_metadata():
         "districts": districts
     }
 
+@app.get("/api/colleges", response_model=List[CollegeOption])
+def get_colleges(district: Optional[str] = None):
+
+    if bundle is None:
+        raise HTTPException(
+            status_code=503,
+            detail="Model bundle not loaded yet"
+        )
+
+    master_df = bundle["master_df"]
+
+    df = (
+    master_df
+    .sort_values("Year", ascending=False)
+    .drop_duplicates(subset=["Code"])
+    [["Code","College Name","District"]]
+)
+
+    if district and district.strip():
+
+        df = df[
+            df["District"].str.strip().str.lower()
+            ==
+            district.strip().lower()
+        ]
+
+    df = df.sort_values("College Name")
+
+    return [
+
+        {
+            "code": str(row["Code"]),
+            "name": row["College Name"],
+            "district": row["District"]
+        }
+
+        for _, row in df.iterrows()
+
+    ]
+
+
 @app.post("/api/predict", response_model=PredictionResponse)
 def get_predictions(req: PredictionRequest):
     if bundle is None:
@@ -136,7 +192,8 @@ def get_predictions(req: PredictionRequest):
             rank=req.rank,
             cutoff_mark=req.cutoff_mark,
             community=comm,
-            district=req.district
+            district=req.district,
+            preferred_colleges=req.preferred_colleges
         )
         
         # Structure the results
@@ -145,6 +202,10 @@ def get_predictions(req: PredictionRequest):
                 code=res['code'],
                 college=res['college'],
                 district=res['district'],
+                overall_probability=res["overall_probability"],
+                is_preferred=res["is_preferred"],
+
+                reason=res["reason"],
                 branches=res['branches']
             )
             for res in results
