@@ -1732,7 +1732,7 @@ Object.entries(hostelData.hostel).map(([key,value])=>(
         </div>
 
         <div className="member-card">
-          <img src="/team/mathubala.jpeg" alt="Member"  />
+          <img src="/team/mathubala01.jpeg" alt="Member"  />
           
           <h4><a
             href="https://www.linkedin.com/in/mathubalas6"
@@ -1814,7 +1814,7 @@ Object.entries(hostelData.hostel).map(([key,value])=>(
         </div>
 
         <div className="member-card">
-          <img src="/team/mathubala.jpeg" alt="Member"  />
+          <img src="/team/mathubala01.jpeg" alt="Member"  />
           
           <h4><a
             href="https://www.linkedin.com/in/mathubalas6"
