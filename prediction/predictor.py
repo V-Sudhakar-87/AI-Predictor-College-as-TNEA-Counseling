@@ -63,6 +63,14 @@ def predict(rank: int | None = None, cutoff_mark: float | None = None, community
         raise ValueError(f"Invalid community: {community}. Must be one of {list(valid_comms)}")
         
     master_df = _bundle['master_df']
+    master_df.loc[
+    master_df["College Name"].str.contains(
+        "Tenkasi|Ayikudy|Puliangudi|Sivagiri|Kadayam|Kadayanallur|Sankarankovil|Alangulam",
+        case=False,
+        na=False
+    ),
+    "District"
+] = "Tenkasi"
     precomputed_features = _bundle.get('precomputed_features', None)
     
     if precomputed_features is None:
@@ -71,6 +79,15 @@ def predict(rank: int | None = None, cutoff_mark: float | None = None, community
         logger.info("Computing features for 2026 on-the-fly...")
         precomputed_features = extract_features_for_year(master_df, 2026)
         _bundle['precomputed_features'] = precomputed_features
+    precomputed_features.loc[
+    precomputed_features["College Name"].str.contains(
+        "Tenkasi|Ayikudy|Puliangudi|Sivagiri|Kadayam|Kadayanallur|Sankarankovil|Alangulam",
+        case=False,
+        na=False
+    ),
+    "District"
+] = "Tenkasi"
+    
         
     # Filter precomputed features to the specified community
     features_comm = precomputed_features[precomputed_features['Community'] == comm_clean].copy()
@@ -126,6 +143,16 @@ def predict(rank: int | None = None, cutoff_mark: float | None = None, community
         #if len(candidates) == 0:
            # return []
     # 3. District Filtering
+    print(candidates.columns.tolist())
+    print(candidates[["College Name", "District"]].head(20))
+    candidates.loc[
+    candidates["College Name"].str.contains(
+        "Tenkasi|Ayikudy|Puliangudi|Sivagiri|Kadayam|Kadayanallur|Sankarankovil|Alangulam|Vasudevanallur",
+        case=False,
+        na=False
+    ),
+    "District"
+] = "Tenkasi"
     if district and str(district).strip():
 
         dist_clean = str(district).strip().lower()
