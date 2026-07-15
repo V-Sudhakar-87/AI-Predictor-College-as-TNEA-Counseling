@@ -142,7 +142,17 @@ def get_colleges(district: Optional[str] = None):
     .drop_duplicates(subset=["Code"])
     [["Code","College Name","District"]]
 )
-
+    # -------------------------------
+# Update new districts from college name
+# -------------------------------
+    df.loc[
+        df["College Name"].str.contains(
+        "Tenkasi|Ayikudy|Puliangudi|Sivagiri|Kadayam|Kadayanallur|Sankarankovil|Alangulam",
+        case=False,
+        na=False
+        ),
+        "District"
+    ] = "Tenkasi"
     if district and district.strip():
 
         df = df[
