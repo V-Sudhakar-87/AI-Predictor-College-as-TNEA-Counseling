@@ -1014,7 +1014,7 @@ Cancel
 )}
 {/* 3. Preferred Colleges */}
 {(!isMobile || mobileStep === 3) && (
-<fieldset className="form-block college" >
+<fieldset className="form-block college"  >
 
     <div className="form-block-header">
         <div className="form-block-num">3</div>
@@ -1942,169 +1942,163 @@ Object.entries(hostelData.hostel).map(([key,value])=>(
 
       <div className="team-grid">
 
-        <div className="member-card">
-          <img src="/team/sk.jpeg" alt="Suthakar" style={{objectPosition:'left 10%'}} />
-          
-          <h4>
-            <a
-            href="https://www.linkedin.com/in/suthakar-v-60550a389"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="linkedin-link"
-          >
-            <i className="fa-brands fa-linkedin"></i>
-          </a>Sudhakar V</h4>
-        </div>
+        <a
+  className="member-card linkedin-link"
+  href="https://www.linkedin.com/in/suthakar-v-60550a389"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img src="/team/sk.jpeg" alt="Sudhakar V" style={{ objectPosition: "left 10%" }} />
+  <h4>
+    <i className="fa-brands fa-linkedin"></i>
+    Sudhakar V
+  </h4>
+</a>
 
-        <div className="member-card">
-          <img src="/team/Thanhgaabarna.jpeg" alt="Member" />
-         
-          <h4>
-             <a
-            href="https://www.linkedin.com/in/thangaabarnamayavanathan04?utm_source=share_via&utm_content=profile&utm_medium=member_android"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="linkedin-link"
-          >
-            <i className="fa-brands fa-linkedin"></i>
-          </a>Thanga Abarna</h4>
-        </div>
+<a
+  className="member-card linkedin-link"
+  href="https://www.linkedin.com/in/thangaabarnamayavanathan04"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img src="/team/Thanhgaabarna.jpeg" alt="Thanga Abarna" />
+  <h4 >
+    <i className="fa-brands fa-linkedin"></i>
+    Thanga Abarna
+  </h4>
+</a>
 
-        <div className="member-card">
-          <img src="/team/mareeswari.jpeg" alt="Member" />
-          
-          <h4>
-            <a
-            href="https://www.linkedin.com/in/marieswari-sankar"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="linkedin-link"
-          >
-            <i className="fa-brands fa-linkedin"></i>
-          </a>Maresswari</h4>
-        </div>
+<a
+  className="member-card linkedin-link"
+  href="https://www.linkedin.com/in/marieswari-sankar"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img src="/team/mareeswari.jpeg" alt="Mareeswari" />
+  <h4>
+    <i className="fa-brands fa-linkedin"></i>
+    Mareeswari
+  </h4>
+</a>
 
-        <div className="member-card">
-          <img src="/team/pavithra.jpeg" alt="Member" />
-          
-          <h4>
-            <a
-            href="https://www.linkedin.com/in/pavithra013"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="linkedin-link"
-          >
-            <i className="fa-brands fa-linkedin"></i>
-          </a>Pavithra</h4>
-        </div>
+<a
+  className="member-card linkedin-link"
+  href="https://www.linkedin.com/in/pavithra013"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img src="/team/pavithra.jpeg" alt="Pavithra" />
+  <h4>
+    <i className="fa-brands fa-linkedin"></i>
+    Pavithra
+  </h4>
+</a>
 
-        <div className="member-card">
-          <img src="/team/mathubala01.jpeg" alt="Member"  />
-          
-          <h4><a
-            href="https://www.linkedin.com/in/mathubalas6"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="linkedin-link"
-          >
-            <i className="fa-brands fa-linkedin"></i>
-          </a>Mathubala</h4>
-        </div>
+<a
+  className="member-card linkedin-link"
+  href="https://www.linkedin.com/in/mathubalas6"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img src="/team/mathubala01.jpeg" alt="Mathubala" />
+  <h4>
+    <i className="fa-brands fa-linkedin"></i>
+    Mathubala
+  </h4>
+</a>
 
-        <div className="member-card">
-          <img src="/team/Vengatesh.jpeg" alt="Member" />
-          
-          <h4>
-            <a
-            href="https://www.linkedin.com/in/vengatesh-l-31312a288"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fa-brands fa-linkedin"></i>
-          </a>Vengatesh L</h4>
-        </div>
+<a
+  className="member-card linkedin-link"
+  href="https://www.linkedin.com/in/vengatesh-l-31312a288"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img src="/team/Vengatesh.jpeg" alt="Vengatesh L" />
+  <h4>
+    <i className="fa-brands fa-linkedin"></i>
+    Vengatesh 
+  </h4>
+</a>
 
-          <div className="member-card">
-          <img src="/team/sk.jpeg" alt="Suthakar" style={{objectPosition:'left 10%'}} />
-          
-          <h4>
-            <a
-            href="https://www.linkedin.com/in/suthakar-v-60550a389"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="linkedin-link"
-          >
-            <i className="fa-brands fa-linkedin"></i>
-          </a>Sudhakar V</h4>
-        </div>
+{/* Duplicate for infinite scroll */}
 
-        <div className="member-card">
-          <img src="/team/Thanhgaabarna.jpeg" alt="Member" />
-         
-          <h4>
-             <a
-            href="https://www.linkedin.com/in/thangaabarnamayavanathan04?utm_source=share_via&utm_content=profile&utm_medium=member_android"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="linkedin-link"
-          >
-            <i className="fa-brands fa-linkedin"></i>
-          </a>Thanga Abarna</h4>
-        </div>
+<a
+  className="member-card linkedin-link"
+  href="https://www.linkedin.com/in/suthakar-v-60550a389"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img src="/team/sk.jpeg" alt="Sudhakar V" style={{ objectPosition: "left 10%" }} />
+  <h4>
+    <i className="fa-brands fa-linkedin"></i>
+    Sudhakar V
+  </h4>
+</a>
 
-        <div className="member-card">
-          <img src="/team/mareeswari.jpeg" alt="Member" />
-          
-          <h4>
-            <a
-            href="https://www.linkedin.com/in/marieswari-sankar"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="linkedin-link"
-          >
-            <i className="fa-brands fa-linkedin"></i>
-          </a>Maresswari</h4>
-        </div>
+<a
+  className="member-card linkedin-link"
+  href="https://www.linkedin.com/in/thangaabarnamayavanathan04"
+  target="_blank"
+  rel="noopener noreferrer"
+ >
+  <img src="/team/Thanhgaabarna.jpeg" alt="Thanga Abarna" />
+  <h4 >
+    <i className="fa-brands fa-linkedin"></i>
+    Thanga Abarna
+  </h4>
+</a>
 
-        <div className="member-card">
-          <img src="/team/pavithra.jpeg" alt="Member" />
-          
-          <h4>
-            <a
-            href="https://www.linkedin.com/in/pavithra013"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="linkedin-link"
-          >
-            <i className="fa-brands fa-linkedin"></i>
-          </a>Pavithra</h4>
-        </div>
+<a
+  className="member-card linkedin-link"
+  href="https://www.linkedin.com/in/marieswari-sankar"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img src="/team/mareeswari.jpeg" alt="Mareeswari" />
+  <h4>
+    <i className="fa-brands fa-linkedin"></i>
+    Mareeswari
+  </h4>
+</a>
 
-        <div className="member-card">
-          <img src="/team/mathubala01.jpeg" alt="Member"  />
-          
-          <h4><a
-            href="https://www.linkedin.com/in/mathubalas6"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="linkedin-link"
-          >
-            <i className="fa-brands fa-linkedin"></i>
-          </a>Mathubala</h4>
-        </div>
+<a
+  className="member-card linkedin-link"
+  href="https://www.linkedin.com/in/pavithra013"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img src="/team/pavithra.jpeg" alt="Pavithra" />
+  <h4>
+    <i className="fa-brands fa-linkedin"></i>
+    Pavithra
+  </h4>
+</a>
 
-        <div className="member-card">
-          <img src="/team/Vengatesh.jpeg" alt="Member" />
-          
-          <h4>
-            <a
-            href="https://www.linkedin.com/in/vengatesh-l-31312a288"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fa-brands fa-linkedin"></i>
-          </a>Vengatesh L</h4>
-        </div>
+<a
+  className="member-card linkedin-link"
+  href="https://www.linkedin.com/in/mathubalas6"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img src="/team/mathubala01.jpeg" alt="Mathubala" />
+  <h4>
+    <i className="fa-brands fa-linkedin"></i>
+    Mathubala
+  </h4>
+</a>
+
+<a
+  className="member-card linkedin-link"
+  href="https://www.linkedin.com/in/vengatesh-l-31312a288"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img src="/team/Vengatesh.jpeg" alt="Vengatesh L" />
+  <h4>
+    <i className="fa-brands fa-linkedin"></i>
+    Vengatesh
+  </h4>
+</a>
 
     
 
