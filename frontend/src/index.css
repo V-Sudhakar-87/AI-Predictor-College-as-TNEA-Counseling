@@ -3938,3 +3938,245 @@ box-shadow:0 0 0 3px rgba(37,99,235,.12);
   font-size: 0.85rem;
   color: #7a5c00;
 }
+.navbar-brand{
+    display:flex;
+    flex-direction:column;
+    overflow:hidden;
+    width:330px;
+}
+.navbar{
+    position:fixed;
+}
+
+.college-marquee{
+    position:absolute;
+    left:180px;
+    right:140px;
+    bottom:6px;
+    top: 50px;
+    font-size: 15px;
+}
+
+.college-track{
+    display:flex;
+    width:max-content;
+    animation:navbarScroll 18s linear infinite;
+}
+
+.college-track span{
+    white-space:nowrap;
+    color:#E8B84B;
+    font-size:11px;
+    font-weight:600;
+    margin-right:60px;
+}
+
+@keyframes navbarScroll{
+
+    from{
+        transform:translateX(0);
+    }
+
+    to{
+        transform:translateX(-50%);
+    }
+
+}
+
+.mobile-college-logo{
+    display:none;
+}
+
+@media(max-width:768px){
+
+    .navbar-cta{
+        display:none;
+    }
+
+    .mobile-college-logo{
+        display:block;
+
+        width:62px;
+        height:62px;
+        margin-left: -60px;
+        border-radius:10px;
+        margin-top: -10px;
+        object-fit:contain;
+    }
+
+}
+.input-mode-selector{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:18px;
+    margin-bottom:22px;
+}
+
+.mode-card{
+
+    position:relative;
+
+    display:flex;
+    align-items:center;
+    gap:16px;
+
+    padding:18px;
+
+    background:#fff;
+
+    border:2px solid #e5e7eb;
+
+    border-radius:18px;
+
+    cursor:pointer;
+
+    transition:.3s ease;
+
+}
+
+.mode-card input{
+    display:none;
+}
+
+.mode-card:hover{
+
+    transform:translateY(-3px);
+
+    border-color:#2563eb;
+
+    box-shadow:0 15px 35px rgba(37,99,235,.12);
+
+}
+
+.mode-card.active{
+
+    border-color:#2563eb;
+
+    background:linear-gradient(135deg,#eef5ff,#ffffff);
+
+}
+
+.mode-icon{
+
+    width:55px;
+    height:55px;
+
+    border-radius:15px;
+
+    background:#2563eb;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:#fff;
+
+    font-size:22px;
+
+    flex-shrink:0;
+
+}
+
+.mode-text{
+
+    flex:1;
+
+}
+
+.mode-text h4{
+
+    margin:0;
+
+    color:#111827;
+
+    font-size:16px;
+
+    font-weight:700;
+
+}
+
+.mode-text p{
+
+    margin-top:4px;
+
+    color:#6b7280;
+
+    font-size:13px;
+
+}
+
+.mode-check{
+
+    opacity:0;
+
+    color:#22c55e;
+
+    font-size:24px;
+
+    transition:.3s;
+
+}
+
+.mode-card.active .mode-check{
+
+    opacity:1;
+
+}
+
+.mode-card.active .mode-icon{
+
+    background:linear-gradient(135deg,#2563eb,#0ea5e9);
+
+}
+@media(max-width:768px){
+
+.input-mode-selector{
+
+    grid-template-columns:1fr;
+
+    gap:12px;
+
+}
+
+.mode-card{
+
+    padding:14px;
+
+    gap:12px;
+
+}
+
+.mode-icon{
+
+    width:45px;
+    height:45px;
+
+    font-size:18px;
+
+}
+
+.mode-text h4{
+
+    font-size:14px;
+
+}
+
+.mode-text p{
+
+    font-size:11px;
+
+}
+
+.mode-check{
+
+    font-size:20px;
+
+}
+
+}
+.field-helper{
+    margin:4px 0 8px;
+    font-size:12px;
+    color:#64748b;
+    font-weight:500;
+}

@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo } from 'react'
 import heroRobot from './assets/robo.png'
 import collegeLogo from './assets/COLLEGE LOGO (1).png'
+import FounderLogo from './assets/Founder Logo (1).png'
 import { getSeats, SEATS_BY_COLLEGE } from './data/seats.js'
 import { useRef } from "react";
 
@@ -60,6 +61,7 @@ function Navbar({ onPredictClick }) {
           <span className="navbar-tagline">Powered by 5 Years of Counselling Data</span>
         </div>
       </a>
+       
     {/* <ul className="navbar-nav">
         <li><a href="#hero" className="active">Home</a></li>
         <li><a href="#features">Features</a></li>
@@ -69,6 +71,31 @@ function Navbar({ onPredictClick }) {
       <button className="navbar-cta" id="navbar-predict-btn" onClick={onPredictClick}>
         Predict Now
       </button>
+      <img
+    src={FounderLogo}
+    className="mobile-college-logo"
+    alt="Einstein College"
+/>
+<div className="college-marquee">
+  <div className="college-track">
+    <span>
+      🏛️ Developed by the Final Year CSE Students of Einstein College of Engineering, Tirunelveli.
+    </span>
+
+    <span>
+      🤖 AI Powered TNEA Counselling Platform • 
+    </span>
+
+    {/* Duplicate for seamless scroll */}
+    <span>
+      🏛️ Developed by the Final Year CSE Students of Einstein College of Engineering, Tirunelveli.
+    </span>
+
+    <span>
+      🤖 AI Powered TNEA Counselling Platform • 
+    </span>
+  </div>
+</div>
     </nav>
   )
 }
@@ -305,6 +332,8 @@ function PredictorForm({ onResults, onLoading, isLoading, communities, districts
   const [rankInput, setRankInput] = useState('')
   const [community, setCommunity] = useState('OC')
   const [gender, setGender] = useState('')
+  const [inputMode, setInputMode] = useState("marks");
+  const [directCutoff, setDirectCutoff] = useState("");
 
   // Academic Info
   const [maths, setMaths] = useState('')
@@ -534,7 +563,10 @@ function toggleCollege(code){
     setValidationError('')
 
     const rank = rankInput.trim() ? parseInt(rankInput, 10) : null
-    const cutoffMark = cutoff
+    const cutoffMark =
+inputMode === "marks"
+? cutoff
+: parseFloat(directCutoff);
 
     if (rank === null && cutoffMark === null) {
       setValidationError('Please enter your Rank List Number or subject marks to proceed.')
@@ -605,6 +637,7 @@ const formValues = {
     maths,
     physics,
     chemistry,
+    inputMode,
     selectedBranches,
     selectedColleges
 };
@@ -615,6 +648,7 @@ sessionStorage.setItem(
     "savedFormData",
     JSON.stringify(formValues)
 );
+
       // Client-side filter: keep only branches that fuzzy-match any selected preference
       // Backend branch names e.g. "Computer Science and Engineering", "Information Technology"
       // UI chip names e.g.  "Computer Science & Engineering (CSE)", "Information Technology"
@@ -763,8 +797,8 @@ Cancel
           <div className="privacy-notice" role="note" aria-label="Privacy notice">
             <span className="privacy-notice-icon"><i className="fa-solid fa-shield-halved fa-2x" style={{marginTop:'10px',marginLeft:'7px'}} ></i></span>
             <div>
-              <strong>Your data is safe with us</strong>
-              <span>We never share your personal information</span>
+              <strong>Your data is never stored</strong>
+              <span>Your details are processed only for prediction</span>
             </div>
           </div>
         </header>
@@ -839,6 +873,9 @@ Cancel
               <label htmlFor="rank-input">
                 Rank List Number <span className="req" aria-hidden="true">*</span>
               </label>
+              <p className="field-helper">
+  Enter your TNEA Community Rank.
+</p>
               <div className="field-wrap">
                 <span className="field-icon" aria-hidden="true">#</span>
                 <input
@@ -874,7 +911,7 @@ Cancel
               </div>
             </div>
 
-            {/* Gender */}
+            {/* Gender *
             <div className="form-col">
               <label htmlFor="gender-select">Gender</label>
               <div className="field-wrap">
@@ -891,7 +928,7 @@ Cancel
                   <option value="other">Other</option>
                 </select>
               </div>
-            </div>
+            </div>*/}
           </div>
           {isMobile && (
   <div className="mobile-nav">
@@ -913,7 +950,59 @@ Cancel
             <div className="form-block-num" aria-hidden="true">2</div>
             <legend><h2>Academic Information</h2></legend>
           </div>
+          <div className="input-mode-selector">
 
+  <div
+    className={`mode-card ${inputMode === "marks" ? "active" : ""}`}
+    onClick={() => setInputMode("marks")}
+  >
+    <input
+      type="radio"
+      checked={inputMode === "marks"}
+      readOnly
+    />
+
+    <div className="mode-icon">
+      <i className="fa-solid fa-calculator"></i>
+    </div>
+
+    <div className="mode-text">
+      <h4>Calculate Cutoff</h4>
+      <p>Enter Maths, Physics & Chemistry Marks</p>
+    </div>
+
+    <div className="mode-check">
+      <i className="fa-solid fa-circle-check"></i>
+    </div>
+  </div>
+
+
+  <div
+    className={`mode-card ${inputMode === "cutoff" ? "active" : ""}`}
+    onClick={() => setInputMode("cutoff")}
+  >
+    <input
+      type="radio"
+      checked={inputMode === "cutoff"}
+      readOnly
+    />
+
+    <div className="mode-icon">
+      <i className="fa-solid fa-hashtag"></i>
+    </div>
+
+    <div className="mode-text">
+      <h4>Direct Cutoff</h4>
+      <p>I already know my Engineering Cutoff</p>
+    </div>
+
+    <div className="mode-check">
+      <i className="fa-solid fa-circle-check"></i>
+    </div>
+  </div>
+
+</div>
+   {inputMode === "marks" && (
           <div className="academic-grid">
             {/* Maths */}
             <div className="form-col">
@@ -989,6 +1078,31 @@ Cancel
               </div>
             </div>
           </div>
+          )}
+          {inputMode === "cutoff" && (
+<div className="form-col">
+
+<label>Engineering Cutoff</label>
+
+<div className="field-wrap">
+
+<span className="field-icon">
+#
+</span>
+
+<input
+type="number"
+step="0.25"
+placeholder="Ex: 189.5"
+value={directCutoff}
+onChange={(e)=>setDirectCutoff(e.target.value)}
+className="field-input"
+/>
+
+</div>
+
+</div>
+)}
           {isMobile && (
   <div className="mobile-nav">
 
@@ -1012,6 +1126,7 @@ Cancel
 )}
         </fieldset>
 )}
+
 {/* 3. Preferred Colleges */}
 {(!isMobile || mobileStep === 3) && (
 <fieldset className="form-block college"  >
@@ -1317,7 +1432,7 @@ function ResultsSection({ recommendations, error, hasSearched, isLoading, onRetr
             </span>
           </div>
 
-          <div className="results-search" role="search">
+          {/*<div className="results-search" role="search">
             <span aria-hidden="true"><i className="fa-solid fa-magnifying-glass"></i></span>
             <input
               type="search"
@@ -1327,7 +1442,7 @@ function ResultsSection({ recommendations, error, hasSearched, isLoading, onRetr
               aria-label="Search results"
               id="results-search-input"
             />
-          </div>
+          </div>*/}
         </div>
 
         {filtered.length === 0 && searchQuery ? (
@@ -1637,6 +1752,7 @@ const downloadPDF = async () => {
 if (downloading) return;
 
     setDownloading(true);
+    
 
     try {
    const student = {
@@ -1651,11 +1767,20 @@ if (downloading) return;
 
     rank: Number(savedFormData?.rankInput || 0),
 
-    maths: Number(savedFormData?.maths || 0),
+    maths:
+  savedFormData?.inputMode === "marks"
+    ? (savedFormData?.maths ?? "")
+    : "",
 
-    physics: Number(savedFormData?.physics || 0),
+physics:
+  savedFormData?.inputMode === "marks"
+    ? (savedFormData?.physics ?? "")
+    : "",
 
-    chemistry: Number(savedFormData?.chemistry || 0),
+chemistry:
+  savedFormData?.inputMode === "marks"
+    ? (savedFormData?.chemistry ?? "")
+    : "",
 
     cutoff: debugInfo?.cutoffMark || 0,
 
@@ -1672,7 +1797,13 @@ if (downloading) return;
                 },
                 body: JSON.stringify({
                     student,
-                    recommendations
+                    recommendations: recommendations.filter(
+        r => !r.is_preferred
+    ),
+
+    preferred_colleges: recommendations.filter(
+        r => r.is_preferred
+    )
                 })
             }
         );
