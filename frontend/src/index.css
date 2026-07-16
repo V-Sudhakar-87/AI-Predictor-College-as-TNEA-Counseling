@@ -1326,6 +1326,8 @@ margin-bottom:4px;
   display: flex;
   flex-direction: column;
   gap: 6px;
+  grid-column:1 / -1;
+    width:100%;
 }
 
 .form-col label {
