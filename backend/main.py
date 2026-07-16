@@ -96,6 +96,7 @@ class CollegeOption(BaseModel):
 class PDFRequest(BaseModel):
     student: dict
     recommendations: list
+    preferred_colleges: list = []
 
 @app.get("/api/health")
 def health_check():
@@ -258,9 +259,10 @@ def download_pdf(req: PDFRequest):
         generate_pdf(
             req.student,
             req.recommendations,
+            req.preferred_colleges,
             output_file
         )
-
+       
         print("PDF Exists:", os.path.exists(output_file))
         print("PDF Size:", os.path.getsize(output_file))
 

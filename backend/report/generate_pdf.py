@@ -327,9 +327,9 @@ def _build_student_profile(student, generated_time):
         ("Community", student.get("community", "")),
         ("Rank", student.get("rank", "")),
         ("Preferred District", student.get("district", "")),
-        ("Maths", student.get("maths", "")),
-        ("Physics", student.get("physics", "")),
-        ("Chemistry", student.get("chemistry", "")),
+        ("Maths", student.get("maths") or "--"),
+("Physics", student.get("physics") or "--"),
+("Chemistry", student.get("chemistry") or "--"),
         ("Cutoff", student.get("cutoff", "")),
         ("Preferred Branches", _preferred_branches_text(student)),
         ("Generated Time", generated_time),
@@ -430,7 +430,7 @@ def _build_recommendations_table(recommendations):
 # MAIN ENTRY POINT
 # =====================================================
 
-def generate_pdf(student, recommendations, output_file="report.pdf"):
+def generate_pdf(student, recommendations,preferred_colleges, output_file="report.pdf"):
     generated_time = datetime.now().strftime("%d-%b-%Y %I:%M %p")
 
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -474,6 +474,26 @@ def generate_pdf(student, recommendations, output_file="report.pdf"):
     # ---------------------------------------------------
     # PAGE 2 - AI Recommended Colleges
     # ---------------------------------------------------
+    if preferred_colleges:
+
+        story.append(
+        Paragraph("PREFERRED COLLEGES", STYLE_SECTION_TITLE)
+    )
+
+        story.append(
+        HRFlowable(
+            width="100%",
+            thickness=1.2,
+            color=COLOR_BLUE,
+            spaceAfter=14,
+        )
+    )
+
+        story.append(
+        _build_recommendations_table(preferred_colleges)
+    )
+
+        story.append(Spacer(1, 18))
 
     story.append(Paragraph("AI RECOMMENDED COLLEGES", STYLE_SECTION_TITLE))
     story.append(
