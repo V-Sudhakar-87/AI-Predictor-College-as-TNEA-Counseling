@@ -560,6 +560,7 @@ function toggleCollege(code){
 
   async function handleSubmit(e) {
     e.preventDefault()
+    onLoading(true);
     setValidationError('')
 
     const rank = rankInput.trim() ? parseInt(rankInput, 10) : null
@@ -1309,6 +1310,19 @@ className="field-input"
           </p>
         </div>
 )}
+{isLoading && (
+  <div className="loading-overlay">
+    <div className="loading-card">
+
+      <div className="loader"></div>
+
+      <h2>Generating Prediction...</h2>
+
+      <p>Please wait while AI analyzes your profile.</p>
+
+    </div>
+  </div>
+)}
         {metaError && (
           <div className="form-validation-alert" role="alert" style={{ marginTop: '16px' }}>
             ⚠️ {metaError}
@@ -1851,6 +1865,7 @@ chemistry:
          metaLoading={metaLoading}
          metaError={metaError}
          onClose={closePredictor}
+         onLoading={setIsLoading}
          savedFormData={savedFormData}
     setSavedFormData={setSavedFormData}
 
